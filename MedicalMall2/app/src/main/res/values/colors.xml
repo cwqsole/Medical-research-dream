@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="huise">#EEEEEE</color>
+    <color name="colorTheme">#55A8DE</color>
+    <color name="txt_shouye_gray">#939393</color>
+
+
+    <color name="color_BDBDBD">#BDBDBD</color>
+    <color name="color_F4">#F4F4F4</color>
+
+    <color name="color_F0">#F0F0F0</color>
+
+    <color name="color_not_da">#FFE4E1</color>
+    <color name="color_not_da_bg">#FFFAFA</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <!--分割线-->
+    <color name="colorLine">#D3D3D3</color>
+    <!--分割线-->
+    <color name="colorLine1">#D3D3D3</color>
+    <!--灰色背景-->
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="txt_26">#1A1A1A</color>
+    <color name="txt_33">#333333</color>
+    <color name="txt_66">#666666</color>
+    <color name="txt_99">#999999</color>
+    <color name="txt_4d">#4D4D4D</color>
+    <color name="txt_7a">#7a7a7a</color>
+    <color name="txt_70">#707070</color>
+    <color name="txt_red">#FE4648</color>
+    <color name="txt_orange">#E86028</color>
+    <color name="txt_orange_eb5b27">#eb5b27</color>
+    <color name="btn_orange">#F16816</color>
+    <color name="txt_shouye">#353535</color>
+    <color name="txt_44">#444444</color>
+    <color name="colorBg">#F5F5F5</color>
+    <color name="colorTitle">#666</color>
+    <color name="color4556B7">#4556B7</color>
+    <color name="color_dati_blue">#1dacf9</color>
+
+
+
+
+    <!--tab标签栏文字的颜色-->
+    <color name="colorTabText">#585858</color>
+    <!--页面背景的颜色-->
+    <color name="colorPageBg">#f2f4f5</color>
+
+    <color name="tab_blue_selected">#5aa5de</color>
+
+    <color name="color_e8e8e8">#e8e8e8</color>
+    <color name="color_1B">#1B1B1B</color>
+    <color name="color_DC">#DCDCDC</color>
+    <color name="colorBgMy">#F5F5F5</color>
+
+
+</resources>
