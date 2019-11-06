@@ -21,7 +21,6 @@ import butterknife.Unbinder;
  */
 public abstract class BaseFragment<P extends BasePresenter,V extends BaseView> extends Fragment implements BaseView{
 
-
     private LoadingDialog loadingDialog;
     public P mPresenter;
     private Unbinder bind;

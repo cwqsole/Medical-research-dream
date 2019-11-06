@@ -20,6 +20,57 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/shp_progress_dialog</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="RememberPswdCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style1</item>
+    </style>
+
+    <style name="RegisterCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style_register</item>
+    </style>
+
+
+
+    <style name="CollectCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style2</item>
+    </style>
+    <style name="CollecManageBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style_collect_manage</item>
+    </style>
+
+    <style name="CollectSchoolBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style_school</item>
+    </style>
+
+    <style name="AddressCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style3</item>
+    </style>
+
+    <style name="Address1CheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style4</item>
+    </style>
+
+
+    <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar</item>
+        <item name="android:maxHeight">25dp</item>
+        <item name="android:minHeight">25dp</item>
+    </style>
+
+    <style name="TextAppearanceHome" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearanceHome1" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">13sp</item>
+    </style>
 
     <!--底部导航RadioGroup-->
     <style name="main_bottom_tab_style">
@@ -33,12 +84,5 @@
         <item name="android:paddingBottom">3dp</item>
         <item name="android:textColor">@color/rb_color</item>
         <item name="android:textSize">11sp</item>
-    </style>
-
-
-    <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">
-        <item name="android:progressDrawable">@drawable/ratingbar</item>
-        <item name="android:maxHeight">25dp</item>
-        <item name="android:minHeight">25dp</item>
     </style>
 </resources>
