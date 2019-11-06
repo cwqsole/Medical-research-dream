@@ -31,7 +31,10 @@ public interface ApiService {
     //https://app.yiyanmeng.com/
     @GET("index.php/kecheng/ke_index_list")
     Observable<CurrBean> getCurr();
-
+    //论坛 学校  tab栏分类数据
+    //https://app.yiyanmeng.com/index.php/forumsc/type_select
+    @GET("index.php/forumsc/type_select")
+    Observable<ForumTabBean>getTab();
 }
 
 
