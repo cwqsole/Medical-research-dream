@@ -4,7 +4,6 @@ import android.app.Application;
 import android.content.res.Resources;
 import android.util.DisplayMetrics;
 import android.view.Display;
-import android.view.Window;
 import android.view.WindowManager;
 
 import com.squareup.leakcanary.LeakCanary;
@@ -19,6 +18,12 @@ import com.umeng.socialize.PlatformConfig;
 
 public class MyLication  extends Application {
 
+    public static MyLication sContext;
+
+    public static MyLication getBaseApp(){
+        return sContext;
+    }
+
     public static MyLication myLication;
     public  static  int widthPixels;
     public static int heightPixels;
@@ -27,6 +32,7 @@ public class MyLication  extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        sContext = this;
         /**
          * 设置组件化的Log开关
          * 参数: boolean 默认为false，如需查看LOG设置为true
