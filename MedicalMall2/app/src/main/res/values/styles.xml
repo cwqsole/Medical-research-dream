@@ -20,6 +20,10 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
+    <style name="RememberPswdCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style1</item>
+    </style>
+
 
     <!--底部导航RadioGroup-->
     <style name="main_bottom_tab_style">
