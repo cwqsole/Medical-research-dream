@@ -328,13 +328,6 @@
 
     </LinearLayout>
 
-
-
-
-
-
-
-
     <RelativeLayout
         android:visibility="gone"
         android:id="@+id/rl_1"
