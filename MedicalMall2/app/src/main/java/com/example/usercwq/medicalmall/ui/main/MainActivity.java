@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
@@ -204,5 +205,16 @@ public class MainActivity extends BaseActivity<MainPresneter, MainView> implemen
         transaction.show(fragment);
         transaction.commit();
         old_postion = type;
+        findViewById(R.id.fl).setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                Log.e("liangxq", "onTouch:1111 " );
+                return false;
+            }
+        });
+    }
+
+    public void onClick1(View view){
+        Log.e("liangxq", "onClick1: " );
     }
 }

@@ -7,6 +7,8 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 import com.example.usercwq.medicalmall.R;
@@ -15,7 +17,6 @@ import com.example.usercwq.medicalmall.mvp.view.presenter.shopping_presenter.Who
 import com.example.usercwq.medicalmall.mvp.view.view.shopping_view.WholeView;
 import com.example.usercwq.medicalmall.ui.adapters.shopping_adpter.MyAdpterWhole;
 import com.example.usercwq.medicalmall.ui.fragment.BaseFragment;
-import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.Whole2Activity;
 import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.WholeCommodity2Activity;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
@@ -37,7 +38,6 @@ public class WholeFragment extends BaseFragment<WholePresenter, WholeView> imple
     RecyclerView mWholeRecycler;
     @BindView(R.id.whole_smart)
     SmartRefreshLayout mWholeSmart;
-    Unbinder unbinder;
     private ArrayList<WholeBean.InfoBean> mList;
     private MyAdpterWhole mMyAdpterWhole;
     private int page = 0;
@@ -65,7 +65,7 @@ public class WholeFragment extends BaseFragment<WholePresenter, WholeView> imple
     public void initView() {
 
         //管理器对象
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
         mWholeRecycler.setLayoutManager(linearLayoutManager);
         mList = new ArrayList<>();
         //适配器对象
@@ -77,11 +77,12 @@ public class WholeFragment extends BaseFragment<WholePresenter, WholeView> imple
             @Override
             public void onClick(int position) {
                 //跳转到商品详情页面
-                // Toast.makeText(getContext(), "sss"+position, Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getContext(), Whole2Activity.class);
+                 Toast.makeText(getContext(), "全部", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getContext(), WholeCommodity2Activity.class);
                 startActivity(intent);
             }
         });
+
 
     //上拉刷新,下拉加载
         mWholeSmart.setOnLoadMoreListener(new OnRefreshLoadMoreListener() {
@@ -99,13 +100,7 @@ public class WholeFragment extends BaseFragment<WholePresenter, WholeView> imple
                 mPresenter.getfyCodeView();//调用方法加载数据
             }
         });
-
-
-
     }
-
-
-
 
     @Override
     public void initData() {

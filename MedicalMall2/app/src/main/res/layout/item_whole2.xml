@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="105dp"
     android:layout_marginBottom="5dp"
@@ -9,8 +9,7 @@
         android:id="@+id/rl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/touch_bg"
-        android:clickable="true">
+        android:background="@drawable/touch_bg">
 
         <ImageView
             android:id="@+id/image"
@@ -142,9 +141,9 @@
 
 
     </RelativeLayout>
-    <View
-        android:layout_alignParentBottom="true"
-        android:background="#F5F5F5"
-        android:layout_width="match_parent"
-        android:layout_height="5dp"/>
-</FrameLayout>
+<!--    <View-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="#F5F5F5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="5dp"/>-->
+</LinearLayout>

@@ -10,7 +10,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoActionBar">
-        <activity android:name=".ui.fragment.shopping_fragment.shopping_2.Whole2Activity"></activity>
         <activity android:name=".ui.fragment.shopping_fragment.shopping_2.Curr_Commodity2Activity" />
         <activity android:name=".ui.fragment.shopping_fragment.shopping_2.Books_Commodity2Activity" />
         <activity android:name=".ui.fragment.shopping_fragment.shopping_2.WholeCommodity2Activity" />

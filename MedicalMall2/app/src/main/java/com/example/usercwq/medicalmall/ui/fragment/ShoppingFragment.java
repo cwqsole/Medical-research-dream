@@ -9,6 +9,8 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 
@@ -72,6 +74,12 @@ public class ShoppingFragment extends BaseFragment<SuoPresenter, SuoView> {
         mShopViewpager.setAdapter(myViewPger);
         mShopTab.setupWithViewPager(mShopViewpager);
 
+        mShopViewpager.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.e("liangxq", "onClick11: " );
+            }
+        });
 
     }
 

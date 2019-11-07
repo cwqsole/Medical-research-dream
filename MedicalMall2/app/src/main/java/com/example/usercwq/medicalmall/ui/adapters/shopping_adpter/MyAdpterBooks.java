@@ -41,6 +41,8 @@ public class MyAdpterBooks extends RecyclerView.Adapter {
         myHolderBooks.mName.setText(mList.get(position).getName());
         myHolderBooks.mTvPrice.setText("￥"+mList.get(position).getXian_price());
         myHolderBooks.mRatingBar.setMax(5);
+
+
         myHolderBooks.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

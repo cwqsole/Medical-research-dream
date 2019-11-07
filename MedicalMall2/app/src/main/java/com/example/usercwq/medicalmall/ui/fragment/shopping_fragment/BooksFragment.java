@@ -70,7 +70,7 @@ public class BooksFragment extends BaseFragment<BooksPresenter, BooksView> imple
             @Override
             public void OnCreatlayout(int position) {
                 //跳转到商品详情页面
-                Toast.makeText(getContext(), "sss"+position, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "图片"+position, Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getActivity(), Books_Commodity2Activity.class);
                 startActivity(intent);
             }

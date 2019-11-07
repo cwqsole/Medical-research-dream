@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.example.usercwq.medicalmall.R;
 import com.example.usercwq.medicalmall.bean.shopping_bean.CurrBean;
@@ -90,6 +91,7 @@ public class CurriculumFragment extends BaseFragment<CurriculumPresenter, Curric
         mAdpterCurr.setOnCreatLayout(new MyAdpterCurr.OnCreatLayout() {
             @Override
             public void OnCreatlayout(int position) {
+                Toast.makeText(getContext(), "课程", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getContext(), Curr_Commodity2Activity.class);
                 startActivity(intent);
             }

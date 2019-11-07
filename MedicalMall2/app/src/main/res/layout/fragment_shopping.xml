@@ -35,7 +35,8 @@
         android:layout_below="@id/shop_tab"
         android:id="@+id/shop_viewpager"
         android:layout_width="match_parent"
-        android:background="#E7EBED"
+        android:background="#FAF5F5"
+
 
         android:layout_height="match_parent"/>
 </RelativeLayout>
