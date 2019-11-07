@@ -2,6 +2,7 @@ package com.example.usercwq.medicalmall.mvp.view.presenter;
 
 import com.example.usercwq.medicalmall.base.BasePresenter;
 import com.example.usercwq.medicalmall.base.BaseView;
+import com.example.usercwq.medicalmall.mvp.view.model.SuoModel;
 import com.example.usercwq.medicalmall.mvp.view.view.SuoView;
 
 /**
@@ -9,6 +10,8 @@ import com.example.usercwq.medicalmall.mvp.view.view.SuoView;
  */
 
 public class SuoPresenter extends BasePresenter<SuoView> {
+
+
     @Override
     protected void initModel() {
 

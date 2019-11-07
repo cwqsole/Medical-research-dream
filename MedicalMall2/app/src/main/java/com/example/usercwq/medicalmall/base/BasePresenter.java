@@ -10,6 +10,7 @@ public abstract class BasePresenter<V extends BaseView> {
     public V mView;
     private ArrayList<BaseModel> baseModels=new ArrayList<>();
     public BasePresenter(){
+
         initModel();
     }
 

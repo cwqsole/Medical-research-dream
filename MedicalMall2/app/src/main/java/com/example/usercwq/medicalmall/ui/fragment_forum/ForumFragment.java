@@ -1,34 +1,31 @@
-package com.example.usercwq.medicalmall.ui.fragment;
+package com.example.usercwq.medicalmall.ui.fragment_forum;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.usercwq.medicalmall.R;
-import com.example.usercwq.medicalmall.mvp.view.presenter.SuoPresenter;
-import com.example.usercwq.medicalmall.mvp.view.view.SuoView;
+import com.example.usercwq.medicalmall.mvp.view.presenter.forum_presenter.ForumPresenter;
+import com.example.usercwq.medicalmall.mvp.view.view.forum_view.ForumView;
+import com.example.usercwq.medicalmall.net.ForumTabBean;
+import com.example.usercwq.medicalmall.ui.adapters.ForumTabAdapter;
+import com.example.usercwq.medicalmall.ui.fragment.BaseFragment;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
 
 /**
  * Created by usercwq on 2019/11/5.
  */
 
-public class ForumFragment extends BaseFragment<SuoPresenter,SuoView> {
-    public static ForumFragment getInstener(){
-public class ForumFragment extends BaseFragment<SuoPresenter, SuoView> implements SuoView {
+public class ForumFragment extends BaseFragment<ForumPresenter, ForumView> implements ForumView {
     @BindView(R.id.tv_school)
     TextView mTvSchool;
     @BindView(R.id.tv_luntan)
@@ -50,15 +47,14 @@ public class ForumFragment extends BaseFragment<SuoPresenter, SuoView> implement
     private ArrayList<String>   title = new ArrayList<>();
     public static ForumFragment getInstener() {
         ForumFragment tiKuFragment = new ForumFragment();
-        Bundle bundle=new Bundle();
         Bundle bundle = new Bundle();
         tiKuFragment.setArguments(bundle);
         return tiKuFragment;
     }
 
     @Override
-    protected SuoPresenter initPresenrer() {
-        return new SuoPresenter();
+    protected ForumPresenter initPresenrer() {
+        return new ForumPresenter();
     }
 
     @Override
@@ -74,6 +70,25 @@ public class ForumFragment extends BaseFragment<SuoPresenter, SuoView> implement
     }
 
     private void initTab() {
+        ForumTabAdapter forumTabAdapter = new ForumTabAdapter(getChildFragmentManager(), fragments, title);
+        mVpForum.setAdapter(forumTabAdapter);
+        mTabChannel.setupWithViewPager(mVpForum);
+    }
+
+
+    @Override
+    public void setData(ForumTabBean dataBeans) {
+        List<ForumTabBean.InfoBean> in = dataBeans.getInfo();
+        for (int i = 0; i < in.size(); i++) {
+            ForumAFragment forumAFragment = new ForumAFragment();
+            forumAFragment.setId(in.get(i).getId());
+        fragments.add(forumAFragment);
+        title.add(in.get(i).getName());
+        }
+    }
+
+    @Override
+    public void showToast(String error) {
 
     }
 }

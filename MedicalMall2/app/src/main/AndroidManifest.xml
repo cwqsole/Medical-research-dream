@@ -19,7 +19,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoActionBar">
-        <activity android:name=".ui.activitys.LoginActivity"></activity>
         <activity android:name=".ui.acticitys_my.LoginActivity"></activity>
         <activity
             android:name=".ui.main.MainActivity"

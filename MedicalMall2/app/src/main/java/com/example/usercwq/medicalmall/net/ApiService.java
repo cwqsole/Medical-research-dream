@@ -17,7 +17,6 @@ import retrofit2.http.POST;
 
 public interface ApiService {
 
-    String url="http://gank.io/api/";
     String url = "http://gank.io/api/";
 
     @GET("data/%E7%A6%8F%E5%88%A9/20/1")

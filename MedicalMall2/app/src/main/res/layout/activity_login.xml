@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activitys.LoginActivity"
     tools:context=".ui.acticitys_my.LoginActivity"
     android:orientation="vertical">
 
@@ -329,10 +328,16 @@
 
     </LinearLayout>
 
+
+
+
+
+
+
+
     <RelativeLayout
         android:visibility="gone"
         android:id="@+id/rl_1"
-        android:layout_below="@+id/ll_1"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_width="match_parent"
@@ -383,6 +388,5 @@
         android:text="还没有账号?"
         android:textColor="@color/txt_33"
         android:textSize="16sp" />
-
 
 </LinearLayout>

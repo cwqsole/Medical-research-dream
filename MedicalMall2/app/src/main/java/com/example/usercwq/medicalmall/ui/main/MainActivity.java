@@ -1,7 +1,6 @@
 package com.example.usercwq.medicalmall.ui.main;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -21,7 +20,7 @@ import com.example.usercwq.medicalmall.bean.Singleton;
 import com.example.usercwq.medicalmall.mvp.view.presenter.MainPresneter;
 import com.example.usercwq.medicalmall.mvp.view.view.MainView;
 import com.example.usercwq.medicalmall.ui.fragment.CourseFragment;
-import com.example.usercwq.medicalmall.ui.fragment.ForumFragment;
+import com.example.usercwq.medicalmall.ui.fragment_forum.ForumFragment;
 import com.example.usercwq.medicalmall.ui.fragment.MyFragment;
 import com.example.usercwq.medicalmall.ui.fragment.ShoppingFragment;
 import com.example.usercwq.medicalmall.ui.fragment.TiKuFragment;
@@ -33,7 +32,6 @@ import com.umeng.socialize.media.UMImage;
 import java.util.ArrayList;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends BaseActivity<MainPresneter, MainView> implements MainView {

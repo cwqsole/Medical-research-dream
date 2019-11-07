@@ -32,8 +32,6 @@ import butterknife.Unbinder;
  * Created by usercwq on 2019/11/5.
  */
 
-public class ShoppingFragment extends BaseFragment<SuoPresenter,SuoView> {
-    public static ShoppingFragment getInstener(){
 public class ShoppingFragment extends BaseFragment<SuoPresenter, SuoView> {
     @BindView(R.id.shop_title)
     TextView mShopTitle;

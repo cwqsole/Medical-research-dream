@@ -13,7 +13,6 @@ import android.widget.TextView;
 import com.example.usercwq.medicalmall.R;
 import com.example.usercwq.medicalmall.mvp.view.presenter.SuoPresenter;
 import com.example.usercwq.medicalmall.mvp.view.view.SuoView;
-import com.example.usercwq.medicalmall.ui.activitys.LoginActivity;
 import com.example.usercwq.medicalmall.ui.acticitys_my.LoginActivity;
 
 import butterknife.BindView;
@@ -81,17 +80,6 @@ public class MyFragment extends BaseFragment<SuoPresenter, SuoView> {
     @Override
     protected int getLayoutId() {
         return R.layout.fragment_my;
-    }
-
-    @Override
-    public void initView() {
-
-    }
-
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        unbinder.unbind();
     }
 
     @OnClick({R.id.iv_head, R.id.rel_person, R.id.rl_cart, R.id.rl_my_order, R.id.rl_address,
