@@ -35,13 +35,18 @@ public class MyAdpterBooks extends RecyclerView.Adapter {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
         MyHolderBooks myHolderBooks = (MyHolderBooks) holder;
         Glide.with(mContext).load(mList.get(position).getPic()).into(myHolderBooks.mImage);
         myHolderBooks.mName.setText(mList.get(position).getName());
-        myHolderBooks.mTvPrice.setText(mList.get(position).getXian_price());
+        myHolderBooks.mTvPrice.setText("￥"+mList.get(position).getXian_price());
         myHolderBooks.mRatingBar.setMax(5);
-
+        myHolderBooks.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                OnCreatLayout.OnCreatlayout(position);
+            }
+        });
     }
 
     @Override
@@ -63,5 +68,16 @@ public class MyAdpterBooks extends RecyclerView.Adapter {
             mRatingBar = itemView.findViewById(R.id.ratingBar);
             mTvPrice = itemView.findViewById(R.id.tv_price);
         }
+    }
+    //接口回调
+    public OnCreatLayout OnCreatLayout;
+
+    public void setOnCreatLayout(OnCreatLayout onCreatLayout) {
+        OnCreatLayout = onCreatLayout;
+    }
+
+    public interface OnCreatLayout{
+        void OnCreatlayout(int position);
+
     }
 }

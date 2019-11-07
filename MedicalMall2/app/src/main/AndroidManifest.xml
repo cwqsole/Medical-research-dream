@@ -2,15 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.usercwq.medicalmall">
 
-
-
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <application
         android:name=".app.MyLication"
         android:allowBackup="true"
@@ -19,7 +10,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoActionBar">
-        <activity android:name=".ui.acticitys_my.LoginActivity"></activity>
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_2.Whole2Activity"></activity>
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_2.Curr_Commodity2Activity" />
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_2.Books_Commodity2Activity" />
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_2.WholeCommodity2Activity" />
+        <activity android:name=".ui.acticitys_my.LoginActivity" />
         <activity
             android:name=".ui.main.MainActivity"
             android:theme="@style/NoActionBar">
@@ -73,5 +68,12 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

@@ -17,11 +17,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyAdpterCurr extends RecyclerView.Adapter {
-    private ArrayList<CurrBean.InfoBean> mList;
+    private ArrayList<CurrBean.InfoBean.KechengBean> mList;
     private Context mContext;
 
 
-    public MyAdpterCurr(ArrayList<CurrBean.InfoBean> list, Context context) {
+    public MyAdpterCurr(ArrayList<CurrBean.InfoBean.KechengBean> list, Context context) {
         mList = list;
         mContext = context;
 
@@ -35,16 +35,21 @@ public class MyAdpterCurr extends RecyclerView.Adapter {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
         MyHolderCurr myHolderCurr = (MyHolderCurr) holder;
-        List<CurrBean.InfoBean.GongGaoBean> gong_gao = mList.get(position).getGong_gao();
-        List<CurrBean.InfoBean.KechengBean> kecheng = mList.get(position).getKecheng();
-        List<CurrBean.InfoBean.LunboBean> lunbo = mList.get(position).getLunbo();
-        Glide.with(mContext).load(kecheng.get(position).getPic()).into(myHolderCurr.mImage);
-        myHolderCurr.mTvName2.setText(kecheng.get(position).getName());
-        myHolderCurr.mTvTip1.setText(kecheng.get(position).getType_str().toString());
-        myHolderCurr.mTvYuan.setText(kecheng.get(position).getJia_ge());
-        myHolderCurr.mTvKecheng.setText(kecheng.get(position).getClass_hour());
+
+        Glide.with(mContext).load(mList.get(position).getPic()).into(myHolderCurr.mImage);
+        myHolderCurr.mTvName2.setText(mList.get(position).getName());
+
+        myHolderCurr.mTvTip1.setText(mList.get(position).getType_str().toString());
+        myHolderCurr.mTvYuan.setText("￥"+mList.get(position).getJia_ge());
+        myHolderCurr.mTvKecheng.setText(mList.get(position).getClass_hour()+"课时");
+        myHolderCurr.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                OnCreatLayout.OnCreatlayout(position);
+            }
+        });
     }
 
     @Override
@@ -72,5 +77,16 @@ public class MyAdpterCurr extends RecyclerView.Adapter {
             mTvYuanDesc = itemView.findViewById(R.id.tv_yuan_desc);
             mTvYuan = itemView.findViewById(R.id.tv_yuan);
         }
+    }
+    //接口回调
+    public OnCreatLayout OnCreatLayout;
+
+    public void setOnCreatLayout(OnCreatLayout onCreatLayout) {
+        OnCreatLayout = onCreatLayout;
+    }
+
+    public interface OnCreatLayout{
+        void OnCreatlayout(int position);
+
     }
 }

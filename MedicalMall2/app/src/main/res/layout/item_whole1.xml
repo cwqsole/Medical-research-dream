@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#FEFEFE"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -103,7 +104,7 @@
 
     <View
         android:layout_alignParentBottom="true"
-        android:background="@color/colorBg"
+        android:background="#F5F5F5"
         android:layout_width="match_parent"
         android:layout_height="5dp"/>
 

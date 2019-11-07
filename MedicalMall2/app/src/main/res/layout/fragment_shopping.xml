@@ -17,7 +17,7 @@
            android:text="商城"
            android:gravity="center"
            android:textSize="20dp"
-           android:textColor="#FFFFFF"
+           android:textColor="#FCFCFC"
 
            />
    </android.support.v7.widget.Toolbar>
@@ -26,6 +26,7 @@
         android:id="@+id/shop_tab"
         android:layout_width="match_parent"
         app:tabSelectedTextColor="#70CDF9"
+        android:background="#FCFCFC"
         android:layout_height="wrap_content"
        app:tabIndicatorColor="#70CDF9"
 
