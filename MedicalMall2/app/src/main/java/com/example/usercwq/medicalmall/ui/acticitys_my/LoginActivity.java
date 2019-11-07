@@ -1,4 +1,4 @@
-package com.example.usercwq.medicalmall.ui.activitys;
+package com.example.usercwq.medicalmall.ui.acticitys_my;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

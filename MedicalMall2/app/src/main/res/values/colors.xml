@@ -25,6 +25,8 @@
     <color name="colorLine1">#D3D3D3</color>
     <!--灰色背景-->
 
+    <!--灰色背景-->
+    <color name="colorBgSv">#F5F5F5</color>
     <color name="colorWhite">#ffffff</color>
     <color name="txt_26">#1A1A1A</color>
     <color name="txt_33">#333333</color>
@@ -57,7 +59,8 @@
     <color name="color_e8e8e8">#e8e8e8</color>
     <color name="color_1B">#1B1B1B</color>
     <color name="color_DC">#DCDCDC</color>
-    <color name="colorBgMy">#F5F5F5</color>
+
+
 
 
 </resources>

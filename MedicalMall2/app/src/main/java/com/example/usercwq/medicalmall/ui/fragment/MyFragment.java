@@ -7,12 +7,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.example.usercwq.medicalmall.R;
 import com.example.usercwq.medicalmall.mvp.view.presenter.SuoPresenter;
 import com.example.usercwq.medicalmall.mvp.view.view.SuoView;
 import com.example.usercwq.medicalmall.ui.activitys.LoginActivity;
+import com.example.usercwq.medicalmall.ui.acticitys_my.LoginActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -24,6 +26,7 @@ import butterknife.Unbinder;
  */
 
 public class MyFragment extends BaseFragment<SuoPresenter, SuoView> {
+
     @BindView(R.id.tongzhi_my)
     ImageView mTongzhiMy;
     Unbinder unbinder;
@@ -59,6 +62,8 @@ public class MyFragment extends BaseFragment<SuoPresenter, SuoView> {
     RelativeLayout mRlAboutUs;
     @BindView(R.id.tv_exit)
     TextView mTvExit;
+    @BindView(R.id.sv_my)
+    ScrollView mSvMy;
     Unbinder unbinder1;
 
     public static MyFragment getInstener() {
@@ -128,5 +133,11 @@ public class MyFragment extends BaseFragment<SuoPresenter, SuoView> {
                 startActivity(new Intent(getActivity(), LoginActivity.class));
                 break;
         }
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unbinder1.unbind();
     }
 }
