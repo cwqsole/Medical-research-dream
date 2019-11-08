@@ -10,6 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoActionBar">
+        <activity android:name=".ui.fragment.shopping_fragment.shoppin_detailed.PurchaseActivity"></activity>
+        <activity android:name=".ui.fragment.shopping_fragment.shoppin_detailed.AddShoppingActivity" />
+        <activity android:name=".ui.fragment.shopping_fragment.shoppin_detailed.CollectActivity" />
+        <activity android:name=".ui.fragment.shopping_fragment.shoppin_detailed.ShoppingActivity" />
         <activity android:name=".ui.fragment.shopping_fragment.shopping_2.Curr_Commodity2Activity" />
         <activity android:name=".ui.fragment.shopping_fragment.shopping_2.Books_Commodity2Activity" />
         <activity android:name=".ui.fragment.shopping_fragment.shopping_2.WholeCommodity2Activity" />
@@ -67,12 +71,12 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     </application>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
 </manifest>

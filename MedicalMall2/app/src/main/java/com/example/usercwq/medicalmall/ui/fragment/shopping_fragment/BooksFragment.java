@@ -72,11 +72,11 @@ public class BooksFragment extends BaseFragment<BooksPresenter, BooksView> imple
         mAdpterBooks.setOnCreatLayout(new MyAdpterBooks.OnCreatLayout() {
             @Override
             public void OnCreatlayout(int position) {
-
+                WholeBean.InfoBean infoBean = mList.get(position);
                 //跳转到商品详情页面
                // Toast.makeText(getContext(), "图书", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getActivity(), Books_Commodity2Activity.class);
-                EventBus.getDefault().postSticky(mList);
+                EventBus.getDefault().postSticky(infoBean);
                 startActivity(intent);
             }
         });

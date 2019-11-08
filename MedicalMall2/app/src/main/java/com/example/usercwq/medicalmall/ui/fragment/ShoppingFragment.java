@@ -74,12 +74,7 @@ public class ShoppingFragment extends BaseFragment<SuoPresenter, SuoView> {
         mShopViewpager.setAdapter(myViewPger);
         mShopTab.setupWithViewPager(mShopViewpager);
 
-        mShopViewpager.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.e("liangxq", "onClick11: " );
-            }
-        });
+
 
     }
 

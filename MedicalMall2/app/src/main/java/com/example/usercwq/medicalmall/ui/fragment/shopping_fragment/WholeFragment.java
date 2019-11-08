@@ -22,6 +22,8 @@ import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.listener.OnRefreshLoadMoreListener;
 
+import org.greenrobot.eventbus.EventBus;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -76,9 +78,11 @@ public class WholeFragment extends BaseFragment<WholePresenter, WholeView> imple
         mMyAdpterWhole.setOnCreatLayout(new MyAdpterWhole.OnCreatLayout() {
             @Override
             public void onClick(int position) {
+                WholeBean.InfoBean infoBean = mList.get(position);
                 //跳转到商品详情页面
-                 Toast.makeText(getContext(), "全部", Toast.LENGTH_SHORT).show();
+                 //Toast.makeText(getContext(), "全部", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getContext(), WholeCommodity2Activity.class);
+                EventBus.getDefault().postSticky(infoBean);
                 startActivity(intent);
             }
         });

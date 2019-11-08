@@ -7,15 +7,70 @@
     android:background="@color/colorWhite"
     android:orientation="vertical">
 
-    <include layout="@layout/whole_title"
-        android:id="@+id/include"
-        />
-    <android.support.v7.widget.RecyclerView
-        android:layout_below="@+id/include"
-        android:layout_above="@+id/rl3"
-        android:id="@+id/recyclerView"
+
+
+    <RelativeLayout
+        android:id="@+id/frl"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="48dp"
+        android:background="@color/colorTheme"
+
+        >
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:text="返回"
+            android:textSize="15sp"
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="商品详情"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/image_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="20dp"
+
+            android:src="@drawable/ic_message2" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/frl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl3"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <include layout="@layout/item_books"
+                android:id="@+id/include"
+                />
+        </LinearLayout>
+    </ScrollView>
 
     <LinearLayout
         android:id="@+id/rl3"
@@ -46,6 +101,7 @@
                     android:id="@+id/iv_inshop"
                     android:layout_width="22dp"
                     android:layout_height="22dp"
+                    android:scaleType="fitXY"
                     android:layout_centerHorizontal="true"
                     android:layout_marginBottom="3dp"
                     android:src="@drawable/gouwuche" />
@@ -53,6 +109,8 @@
 
 
             </RelativeLayout>
+
+
             <TextView
                 android:id="@+id/tv_inshop"
                 android:layout_width="wrap_content"

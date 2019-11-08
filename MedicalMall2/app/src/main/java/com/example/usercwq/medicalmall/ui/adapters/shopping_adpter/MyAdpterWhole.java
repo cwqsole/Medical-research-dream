@@ -73,7 +73,7 @@ public class MyAdpterWhole extends RecyclerView.Adapter {
             myHolderWhole2.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(mContext, "全部2", Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(mContext, "全部2", Toast.LENGTH_SHORT).show();
                     onCreatLayout.onClick(position);
                 }
             });
