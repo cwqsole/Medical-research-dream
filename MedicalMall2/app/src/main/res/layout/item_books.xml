@@ -32,6 +32,7 @@
             android:layout_marginTop="10dp"
             android:id="@+id/tv_name"
             android:textSize="16sp"
+            android:text="mz"
             android:textColor="@color/txt_33"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -41,6 +42,7 @@
             android:id="@+id/tv_price"
             android:textColor="@color/txt_red"
             android:textSize="17sp"
+            android:text="$560"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -49,6 +51,7 @@
             android:id="@+id/tv_yuan_price"
             android:textSize="14sp"
             android:textColor="@color/txt_99"
+            android:text="价钱630"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -63,6 +66,7 @@
                 android:id="@+id/tv_yun_price"
                 android:textSize="14sp"
                 android:textColor="@color/txt_99"
+                android:text="快递 :免费"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -71,6 +75,7 @@
                 android:id="@+id/tv_yue_shou"
                 android:textSize="14sp"
                 android:textColor="@color/txt_99"
+                android:text="月销 :93笔"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -81,6 +86,7 @@
                 android:textSize="14sp"
                 android:textColor="@color/txt_99"
                 android:layout_width="wrap_content"
+                android:text="北京昌平区"
                 android:layout_height="wrap_content" />
         </RelativeLayout>
 

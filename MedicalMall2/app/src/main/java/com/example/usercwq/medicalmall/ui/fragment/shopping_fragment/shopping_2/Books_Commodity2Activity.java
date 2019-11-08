@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -60,6 +61,7 @@ public class Books_Commodity2Activity extends AppCompatActivity {
     }
     @Subscribe(threadMode = ThreadMode.MAIN,sticky = true)
     public void getMog(ArrayList<WholeBean.InfoBean> mList) {
+        Log.i("TAG", "getMog: "+mList);
         if (mList!=null){
             MyAdpter2Books myAdpter2Books = new MyAdpter2Books(this,mList);
             mRecyclerView.setAdapter(myAdpter2Books);
