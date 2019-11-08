@@ -20,6 +20,9 @@ import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.listener.OnRefreshLoadMoreListener;
 
+
+import org.greenrobot.eventbus.EventBus;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -69,9 +72,11 @@ public class BooksFragment extends BaseFragment<BooksPresenter, BooksView> imple
         mAdpterBooks.setOnCreatLayout(new MyAdpterBooks.OnCreatLayout() {
             @Override
             public void OnCreatlayout(int position) {
+
                 //跳转到商品详情页面
-                Toast.makeText(getContext(), "图片"+position, Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getContext(), "图书", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getActivity(), Books_Commodity2Activity.class);
+                EventBus.getDefault().postSticky(mList);
                 startActivity(intent);
             }
         });
