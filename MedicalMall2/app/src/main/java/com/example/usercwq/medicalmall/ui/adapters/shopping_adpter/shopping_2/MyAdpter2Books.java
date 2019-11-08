@@ -6,11 +6,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.example.usercwq.medicalmall.R;
 import com.example.usercwq.medicalmall.bean.shopping_bean.WholeBean;
-import com.youth.banner.Banner;
+import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.Books_Commodity2Activity;
 
 import java.util.ArrayList;
 
@@ -18,11 +17,9 @@ public class MyAdpter2Books extends RecyclerView.Adapter {
     private Context mContext;
     private ArrayList<WholeBean.InfoBean> mInfoBean;
 
-
     public MyAdpter2Books(Context context, ArrayList<WholeBean.InfoBean> infoBean) {
         mContext = context;
         mInfoBean = infoBean;
-
     }
 
     @NonNull
@@ -34,8 +31,6 @@ public class MyAdpter2Books extends RecyclerView.Adapter {
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-        MyHolderBooks Books = (MyHolderBooks) holder;
-
 
     }
 
@@ -43,27 +38,10 @@ public class MyAdpter2Books extends RecyclerView.Adapter {
     public int getItemCount() {
         return mInfoBean.size();
     }
+    class MyHolderBooks extends RecyclerView.ViewHolder{
 
-    class MyHolderBooks extends RecyclerView.ViewHolder {
-        private Banner mBanner;
-        private TextView mTvName;
-        private TextView mTvPrice;
-        private TextView mTvYuanPrice;
-        private TextView mTvYunPrice;
-        private TextView mTvYueShou;
-        private TextView mTvFaHuoDi;
-        private TextView mTv1;
         public MyHolderBooks(View itemView) {
             super(itemView);
-            mBanner =itemView. findViewById(R.id.banner);
-            mTvName =itemView. findViewById(R.id.tv_name);
-            mTvPrice =itemView. findViewById(R.id.tv_price);
-            mTvYuanPrice = itemView.findViewById(R.id.tv_yuan_price);
-            mTvYunPrice =itemView. findViewById(R.id.tv_yun_price);
-            mTvYueShou = itemView.findViewById(R.id.tv_yue_shou);
-            mTvFaHuoDi = itemView.findViewById(R.id.tv_fa_huo_di);
-            mTv1 = itemView.findViewById(R.id.tv1);
         }
     }
-
 }
