@@ -1,0 +1,232 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.usercwq.medicalmall"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:74:5-75
+11-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:74:22-72
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:75:5-67
+12-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:75:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:76:5-81
+13-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:76:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:77:5-80
+14-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:77:22-77
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:78:5-79
+15-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:78:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:80:5-76
+16-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:80:22-73
+17
+18    <application
+18-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:5:5-73:19
+19        android:name="com.example.usercwq.medicalmall.app.MyLication"
+19-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:6:9-39
+20        android:allowBackup="true"
+20-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:7:9-35
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:8:9-43
+23        android:label="@string/app_name"
+23-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:9:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:10:9-54
+25        android:supportsRtl="true"
+25-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:11:9-35
+26        android:testOnly="true"
+27        android:theme="@style/NoActionBar" >
+27-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:12:9-43
+28        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shoppin_detailed.PurchaseActivity" />
+28-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:13:9-110
+28-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:13:19-98
+29        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shoppin_detailed.AddShoppingActivity" />
+29-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:14:9-104
+29-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:14:19-101
+30        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shoppin_detailed.CollectActivity" />
+30-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:15:9-100
+30-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:15:19-97
+31        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shoppin_detailed.ShoppingActivity" />
+31-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:16:9-101
+31-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:16:19-98
+32        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.Curr_Commodity2Activity" />
+32-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:17:9-102
+32-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:17:19-99
+33        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.Books_Commodity2Activity" />
+33-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:18:9-103
+33-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:18:19-100
+34        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.WholeCommodity2Activity" />
+34-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:19:9-102
+34-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:19:19-99
+35        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.LoginActivity" />
+35-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:20:9-67
+35-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:20:19-64
+36        <activity
+36-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:21:9-29:20
+37            android:name="com.example.usercwq.medicalmall.ui.main.MainActivity"
+37-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:22:13-49
+38            android:theme="@style/NoActionBar" >
+38-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:23:13-47
+39            <intent-filter>
+39-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:24:13-28:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:25:17-69
+40-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:25:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:27:17-77
+42-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:27:27-74
+43            </intent-filter>
+44        </activity> <!-- 友盟集成start -->
+45        <!-- 新浪： -->
+46        <activity
+46-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:31:9-35:75
+47            android:name="com.umeng.socialize.media.WBShareCallBackActivity"
+47-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:32:13-77
+48            android:configChanges="keyboardHidden|orientation"
+48-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:33:13-63
+49            android:exported="false"
+49-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:34:13-37
+50            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+50-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:35:13-72
+51        <activity
+51-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:36:9-40:58
+52            android:name="com.sina.weibo.sdk.web.WeiboSdkWebActivity"
+52-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:37:13-70
+53            android:configChanges="keyboardHidden|orientation"
+53-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:38:13-63
+54            android:exported="false"
+54-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:39:13-37
+55            android:windowSoftInputMode="adjustResize" />
+55-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:40:13-55
+56        <activity
+56-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:41:9-50:20
+57            android:name="com.sina.weibo.sdk.share.WbShareTransActivity"
+57-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:42:13-73
+58            android:launchMode="singleTask"
+58-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:43:13-44
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+59-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:44:13-83
+60            <intent-filter>
+60-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:45:13-49:29
+61                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+61-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:46:17-92
+61-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:46:25-89
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:48:17-76
+63-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:48:27-73
+64            </intent-filter>
+65        </activity> <!-- 微信： -->
+66        <activity
+66-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:51:9-55:75
+67            android:name="com.example.usercwq.medicalmall.ui.wxapi.WXEntryActivity"
+67-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:52:13-53
+68            android:configChanges="keyboardHidden|orientation|screenSize"
+68-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:53:13-74
+69            android:exported="true"
+69-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:54:13-36
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:55:13-72
+71        <activity
+71-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:56:9-68:20
+72            android:name="com.tencent.tauth.AuthActivity"
+72-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:57:13-58
+73            android:launchMode="singleTask"
+73-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:58:13-44
+74            android:noHistory="true" >
+74-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:59:13-37
+75            <intent-filter>
+75-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:60:13-67:29
+76                <action android:name="android.intent.action.VIEW" />
+76-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:61:17-69
+76-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:61:25-66
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:48:17-76
+78-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:48:27-73
+79                <category android:name="android.intent.category.BROWSABLE" />
+79-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:64:17-78
+79-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:64:27-75
+80
+81                <data android:scheme="tencent100424468" />
+81-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:66:17-59
+81-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:66:23-56
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:69:9-72:75
+85            android:name="com.tencent.connect.common.AssistActivity"
+85-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:70:13-69
+86            android:configChanges="orientation|keyboardHidden|screenSize"
+86-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:71:13-74
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:72:13-72
+88
+89        <service
+89-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:27:9-30:45
+90            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+90-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:28:13-80
+91            android:enabled="false"
+91-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:29:13-36
+92            android:process=":leakcanary" />
+92-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:30:13-42
+93        <service
+93-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:31:9-33:39
+94            android:name="com.squareup.leakcanary.DisplayLeakService"
+94-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:32:13-70
+95            android:enabled="false" />
+95-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:33:13-36
+96
+97        <activity
+97-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:35:9-47:20
+98            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+98-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:36:13-80
+99            android:enabled="false"
+99-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:37:13-36
+100            android:icon="@drawable/leak_canary_icon"
+100-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:38:13-54
+101            android:label="@string/leak_canary_display_activity_label"
+101-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:39:13-71
+102            android:taskAffinity="com.squareup.leakcanary.com.example.usercwq.medicalmall"
+102-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:40:13-76
+103            android:theme="@style/leak_canary_LeakCanary.Base" >
+103-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:41:13-63
+104            <intent-filter>
+104-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:24:13-28:29
+105                <action android:name="android.intent.action.MAIN" />
+105-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:25:17-69
+105-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:25:25-66
+106
+107                <category android:name="android.intent.category.LAUNCHER" />
+107-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:27:17-77
+107-->E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:27:27-74
+108            </intent-filter>
+109        </activity>
+110        <activity
+110-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:48:9-54:68
+111            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+111-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:49:13-93
+112            android:enabled="false"
+112-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:50:13-36
+113            android:icon="@drawable/leak_canary_icon"
+113-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:51:13-54
+114            android:label="@string/leak_canary_storage_permission_activity_label"
+114-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:52:13-82
+115            android:taskAffinity="com.squareup.leakcanary.com.example.usercwq.medicalmall"
+115-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:53:13-76
+116            android:theme="@style/leak_canary_Theme.Transparent" />
+116-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\48a21b7978d552f9c6ea8b0eda36c667\leakcanary-android-1.5.1\AndroidManifest.xml:54:13-65
+117    </application>
+118
+119</manifest>
