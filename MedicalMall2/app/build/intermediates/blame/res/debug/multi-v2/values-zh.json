@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Learningcatalogue\\study\\Android\\xm\\MedicalMall2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "F:\\cwq\\MedicalMall2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\535c46023921f4c88fe28abf7ed1e88a\\SmartRefreshHeader-1.1.0-alpha-14\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\usercwq\\.gradle\\caches\\transforms-2\\files-2.1\\e5708f7c4e6087aaeb36026ba1580961\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\aa66c041d6a28584c923ebe14d51e23d\\SmartRefreshLayout-1.1.0-alpha-14\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\usercwq\\.gradle\\caches\\transforms-2\\files-2.1\\60353d81a5ab364419b721ac31188d02\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

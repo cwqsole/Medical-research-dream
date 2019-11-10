@@ -8,12 +8,12 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="27" />
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:name="com.example.usercwq.medicalmall.app.MyLication"
@@ -23,15 +23,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/NoActionBar" >
-        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shoppin_detailed.PurchaseActivity" />
-        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shoppin_detailed.AddShoppingActivity" />
-        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shoppin_detailed.CollectActivity" />
-        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shoppin_detailed.ShoppingActivity" />
-        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.Curr_Commodity2Activity" />
-        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.Books_Commodity2Activity" />
-        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.WholeCommodity2Activity" />
         <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.LoginActivity" />
         <activity
             android:name="com.example.usercwq.medicalmall.ui.main.MainActivity"
@@ -85,6 +77,10 @@
             android:name="com.tencent.connect.common.AssistActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.example.usercwq.medicalmall.ui.main.DaKaActivity"
+            android:theme="@style/NoActionBar" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.RegisterActivity" />
 
         <service
             android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:background="@color/colorBg"
+            android:layout_width="match_parent"
+            app:elevation="0dp"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:minHeight="70dp"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+                <RelativeLayout
+                    android:background="@drawable/beijing_shouye"
+                    android:id="@+id/rl_top"
+                    app:layout_collapseMode="parallax"
+                    android:paddingLeft="18dp"
+                    app:layout_collapseParallaxMultiplier="0.9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/ll_daojishi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="考研倒计时"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="17sp" />
+                        <TextView
+                            android:text="414"
+                            android:id="@+id/tv_daojishi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="35sp" />
+                        <TextView
+                            android:text="天"
+                            android:id="@+id/tv_tian_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_daojishi"
+                        android:layout_marginTop="25dp"
+                        android:text="每天都有好的心情，每天都有很强大的power，每天都能很开心，很健康，充满激情。心想事成，如意美满，理想成真。"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="13sp" />
+
+                </RelativeLayout>
+
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar_tiku"
+                    android:minHeight="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_collapseMode="pin">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="医研梦"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="19sp" />
+                        <TextView
+                            android:id="@+id/tv_daka"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="12dp"
+                            android:background="@drawable/daka"
+                            android:gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="3dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="3dp"
+                            android:text="今日打卡"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.Toolbar>
+            </android.support.design.widget.CollapsingToolbarLayout>
+            <LinearLayout
+                android:id="@+id/ll_center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_top"
+                android:orientation="vertical"
+                app:layout_scrollFlags="scroll"
+
+                >
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@drawable/linianlianxi"
+                        android:drawablePadding="10dp"
+                        android:gravity="center"
+                        android:paddingTop="17dp"
+                        android:paddingBottom="10dp"
+                        android:text="历年考试题"
+                        android:textColor="@color/txt_shouye"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorLine1"
+                        android:visibility="gone" />
+
+                    <RadioButton
+                        android:id="@+id/rb_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@drawable/monilianxi"
+                        android:drawablePadding="10dp"
+                        android:gravity="center"
+                        android:paddingTop="17dp"
+                        android:paddingBottom="10dp"
+                        android:text="模拟考试"
+                        android:textColor="@color/txt_shouye"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorLine1"
+                        android:visibility="gone" />
+
+                    <RadioButton
+                        android:id="@+id/rb_6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@drawable/shoucang"
+                        android:drawablePadding="10dp"
+                        android:gravity="center"
+                        android:paddingTop="17dp"
+                        android:paddingBottom="10dp"
+                        android:text="收藏"
+                        android:textColor="@color/txt_shouye"
+                        android:textSize="15sp" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/colorLine1"
+                    android:visibility="gone" />
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@drawable/yingyu"
+                        android:drawablePadding="10dp"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="17dp"
+                        android:text="英语专项练习"
+                        android:textColor="@color/txt_shouye"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorLine1"
+                        android:visibility="gone" />
+
+                    <RadioButton
+                        android:id="@+id/rb_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@drawable/zhengzhi"
+                        android:drawablePadding="10dp"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="17dp"
+                        android:text="政治专项练习"
+                        android:textColor="@color/txt_shouye"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorLine1"
+                        android:visibility="gone" />
+
+                    <RadioButton
+                        android:id="@+id/rb_5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@drawable/cuotiku"
+                        android:drawablePadding="10dp"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="17dp"
+                        android:text="错题库"
+                        android:textColor="@color/txt_shouye"
+                        android:textSize="15sp" />
+
+
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/colorLine1"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+           <!-- <com.flyco.tablayout.SlidingTabLayout
+                android:id="@+id/tab_channel"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/ll_center"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:paddingTop="3dp"
+                app:tabBackground="@drawable/et_bg"
+                app:tabIndicatorColor="@color/black"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/colorTheme"
+                app:tabTextAppearance="@style/TextAppearanceHome"
+                app:tabTextColor="@color/txt_44"
+                app:tl_divider_color="@color/white"
+                app:tl_divider_padding="20dp"
+                app:tl_divider_width="1dp"
+                app:tl_indicator_color="@color/black"
+                app:tl_indicator_width_equal_title="true"
+                app:tl_tab_padding="20dp"
+                app:tl_textSelectColor="@color/txt_44"
+                app:tl_textUnselectColor="@color/txt_44"
+                app:tl_textsize="16sp" />-->
+            <View
+                android:background="@color/colorLine1"
+                android:layout_height="0.5dp"
+                android:layout_width="match_parent"/>
+            <android.support.design.widget.TabLayout
+                app:tabMode="scrollable"
+                android:background="@drawable/et_bg"
+                android:id="@+id/tabla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </android.support.design.widget.TabLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/tab_channel"
+                android:background="@color/colorLine1" />
+        </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </android.support.v4.view.ViewPager>
+
+</android.support.design.widget.CoordinatorLayout>
+
