@@ -2,6 +2,7 @@ package com.example.usercwq.medicalmall.net;
 
 import com.example.usercwq.medicalmall.bean.CourselvBean;
 import com.example.usercwq.medicalmall.bean.MainBean;
+import com.example.usercwq.medicalmall.bean.my_bean.MyNotifyBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.CurrBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.WholeBean;
 
@@ -35,6 +36,9 @@ public interface ApiService {
 
     @GET("kecheng/ke_index_list")
     Observable<CourselvBean> getCourse();
+
+    @GET("index.php/forum/notice_list")
+    Observable<MyNotifyBean> getBean();
 }
 
 

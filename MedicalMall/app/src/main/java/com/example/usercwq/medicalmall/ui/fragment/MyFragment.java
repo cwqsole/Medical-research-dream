@@ -14,6 +14,7 @@ import com.example.usercwq.medicalmall.R;
 import com.example.usercwq.medicalmall.mvp.view.presenter.SuoPresenter;
 import com.example.usercwq.medicalmall.mvp.view.view.SuoView;
 import com.example.usercwq.medicalmall.ui.acticitys_my.LoginActivity;
+import com.example.usercwq.medicalmall.ui.acticitys_my.NotifyActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -64,6 +65,39 @@ public class MyFragment extends BaseFragment<SuoPresenter, SuoView> {
     @BindView(R.id.sv_my)
     ScrollView mSvMy;
     Unbinder unbinder1;
+    @BindView(R.id.img2)
+    ImageView mImg2;
+    @BindView(R.id.txt2)
+    TextView mTxt2;
+    @BindView(R.id.img3)
+    ImageView mImg3;
+    @BindView(R.id.txt3)
+    TextView mTxt3;
+    @BindView(R.id.img4)
+    ImageView mImg4;
+    @BindView(R.id.txt4)
+    TextView mTxt4;
+    @BindView(R.id.img5)
+    ImageView mImg5;
+    @BindView(R.id.txt5)
+    TextView mTxt5;
+    @BindView(R.id.img6)
+    ImageView mImg6;
+    @BindView(R.id.txt6)
+    TextView mTxt6;
+    @BindView(R.id.img8)
+    ImageView mImg8;
+    @BindView(R.id.txt8)
+    TextView mTxt8;
+    @BindView(R.id.img9)
+    ImageView mImg9;
+    @BindView(R.id.txt9)
+    TextView mTxt9;
+    @BindView(R.id.img10)
+    ImageView mImg10;
+    @BindView(R.id.txt10)
+    TextView mTxt10;
+    Unbinder unbinder2;
 
     public static MyFragment getInstener() {
         MyFragment tiKuFragment = new MyFragment();
@@ -127,5 +161,10 @@ public class MyFragment extends BaseFragment<SuoPresenter, SuoView> {
     public void onDestroyView() {
         super.onDestroyView();
         unbinder1.unbind();
+    }
+
+    @OnClick(R.id.tongzhi_my)
+    public void onViewClicked() {
+        startActivity(new Intent(getActivity(), NotifyActivity.class));
     }
 }

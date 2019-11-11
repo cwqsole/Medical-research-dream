@@ -14,6 +14,8 @@
         <activity android:name=".ui.fragment.shopping_fragment.shopping_2.Books_Commodity2Activity" />
         <activity android:name=".ui.fragment.shopping_fragment.shopping_2.WholeCommodity2Activity" />
         <activity android:name=".ui.acticitys_my.LoginActivity" />
+        <activity android:name=".ui.acticitys_my.NotifyActivity" />
+        <activity android:name=".ui.acticitys_my.NotifyDateilActivity"></activity>
         <activity
             android:name=".ui.main.MainActivity"
             android:theme="@style/NoActionBar">
