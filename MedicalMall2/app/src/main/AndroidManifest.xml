@@ -21,6 +21,7 @@
         <activity android:name=".ui.acticitys_my.LoginActivity" />
         <activity android:name=".ui.acticitys_my.NotifyActivity" />
         <activity android:name=".ui.acticitys_my.NotifyDateilActivity"></activity>
+        <activity android:name=".ui.acticitys_my.WebActivity"></activity>
         <activity
             android:name=".ui.main.MainActivity"
             android:theme="@style/NoActionBar">

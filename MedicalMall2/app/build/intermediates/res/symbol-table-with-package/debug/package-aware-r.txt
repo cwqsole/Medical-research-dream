@@ -16,6 +16,7 @@ anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
 animator design_appbar_state_list_animator
+animator scale_with_alpha
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -70,6 +71,8 @@ attr backgroundSplit
 attr backgroundStacked
 attr backgroundTint
 attr backgroundTintMode
+attr banner_default_image
+attr banner_layout
 attr barLength
 attr barrierAllowsGoneWidgets
 attr barrierDirection
@@ -146,6 +149,7 @@ attr counterOverflowTextAppearance
 attr counterTextAppearance
 attr customNavigationLayout
 attr defaultQueryHint
+attr delay_time
 attr dhDrawable1
 attr dhDrawable2
 attr dhDrawable3
@@ -225,10 +229,17 @@ attr iconTint
 attr iconTintMode
 attr iconifiedByDefault
 attr imageButtonStyle
+attr image_scale_type
 attr indeterminateProgressStyle
+attr indicator_drawable_selected
+attr indicator_drawable_unselected
+attr indicator_height
+attr indicator_margin
+attr indicator_width
 attr initialActivityCount
 attr insetForeground
 attr isLightTheme
+attr is_auto_play
 attr itemBackground
 attr itemIconTint
 attr itemPadding
@@ -375,6 +386,7 @@ attr reverseLayout
 attr rippleColor
 attr scrimAnimationDuration
 attr scrimVisibleHeightTrigger
+attr scroll_time
 attr searchHintIcon
 attr searchIcon
 attr searchViewStyle
@@ -518,6 +530,10 @@ attr titleMargins
 attr titleTextAppearance
 attr titleTextColor
 attr titleTextStyle
+attr title_background
+attr title_height
+attr title_textcolor
+attr title_textsize
 attr toolbarId
 attr toolbarNavigationButtonStyle
 attr toolbarStyle
@@ -948,6 +964,7 @@ drawable bg_channel_shape
 drawable bg_et_gray_coment
 drawable bg_school_comment
 drawable bg_type
+drawable black_background
 drawable bofang
 drawable caidan
 drawable category_edit_close
@@ -1003,6 +1020,7 @@ drawable gouwuche_1
 drawable gouxuan_check
 drawable gouxuan_uncheck
 drawable gray_circle_bg
+drawable gray_radius
 drawable guanbi
 drawable guanbi_111
 drawable guanbi_2
@@ -1090,6 +1108,7 @@ drawable my_shopping
 drawable myclass
 drawable navigation_empty_icon
 drawable no
+drawable no_banner
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1276,6 +1295,7 @@ drawable welcome_skip
 drawable wheel_bg
 drawable wheel_val
 drawable white_bg
+drawable white_radius
 drawable wo
 drawable wo_1
 drawable wo_22
@@ -1341,6 +1361,10 @@ id async
 id auto
 id back
 id back_notify
+id bannerContainer
+id bannerDefaultImage
+id bannerTitle
+id bannerViewPager
 id barrier
 id beginning
 id blocking
@@ -1352,18 +1376,27 @@ id buttonPanel
 id calendarView
 id cancel_action
 id center
+id center_crop
 id center_horizontal
+id center_inside
 id center_vertical
 id chains
 id checkbox
 id checkbox_register
 id chronometer
+id circleIndicator
 id clip_horizontal
 id clip_vertical
 id collapseActionView
 id container
 id contentPanel
 id coordinator
+id course_rlv
+id course_rlv_itembanner
+id course_rlv_jiage
+id course_rlv_keshi
+id course_rlv_title
+id course_scrolltv
 id curr_recycler
 id curr_smart
 id custom
@@ -1397,10 +1430,16 @@ id expanded_menu
 id fill
 id fill_horizontal
 id fill_vertical
+id fit_center
+id fit_end
+id fit_start
+id fit_xy
 id fixed
 id fl
 id forever
 id friday
+id fuhao
+id gg
 id ghost_view
 id glide_custom_view_target_tag
 id gone
@@ -1422,6 +1461,7 @@ id img5
 id img6
 id img8
 id img9
+id indicatorInside
 id info
 id invisible
 id italic
@@ -1448,6 +1488,7 @@ id ll_daojishi
 id ll_pass
 id ll_quick
 id masked
+id matrix
 id mcv_pager
 id media_actions
 id message
@@ -1466,6 +1507,8 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id numIndicator
+id numIndicatorInside
 id other_months
 id out_of_range
 id packed
@@ -1577,6 +1620,7 @@ id time
 id time_notify
 id title
 id titleDividerNoCustom
+id titleView
 id title_item
 id title_notify
 id title_template
@@ -1595,6 +1639,8 @@ id transition_scene_layoutid_cache
 id transition_transform
 id tuesday
 id tv_agreement
+id tv_banner1
+id tv_banner2
 id tv_daka
 id tv_daojishi
 id tv_exit
@@ -1661,6 +1707,7 @@ id view_offset_helper
 id view_pass
 id view_quick
 id visible
+id web
 id webView
 id wednesday
 id week
@@ -1713,7 +1760,14 @@ layout activity_main
 layout activity_notify
 layout activity_notify_dateil
 layout activity_register
+layout activity_web
 layout activity_wxentry
+layout banner
+layout course_rlvitem
+layout course_rlvitem_banner
+layout course_rlvitem_gonggao
+layout course_rlvitem_jingpin
+layout course_rlvitem_quanbu
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1765,6 +1819,7 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout notify_top
+layout scrool_course
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2298,6 +2353,7 @@ styleable AppCompatTextHelper android_textAppearance android_drawableTop android
 styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType fontFamily textAllCaps
 styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle actionBarDivider actionBarItemBackground actionBarPopupTheme actionBarSize actionBarSplitStyle actionBarStyle actionBarTabBarStyle actionBarTabStyle actionBarTabTextStyle actionBarTheme actionBarWidgetTheme actionButtonStyle actionDropDownStyle actionMenuTextAppearance actionMenuTextColor actionModeBackground actionModeCloseButtonStyle actionModeCloseDrawable actionModeCopyDrawable actionModeCutDrawable actionModeFindDrawable actionModePasteDrawable actionModePopupWindowStyle actionModeSelectAllDrawable actionModeShareDrawable actionModeSplitBackground actionModeStyle actionModeWebSearchDrawable actionOverflowButtonStyle actionOverflowMenuStyle activityChooserViewStyle alertDialogButtonGroupStyle alertDialogCenterButtons alertDialogStyle alertDialogTheme autoCompleteTextViewStyle borderlessButtonStyle buttonBarButtonStyle buttonBarNegativeButtonStyle buttonBarNeutralButtonStyle buttonBarPositiveButtonStyle buttonBarStyle buttonStyle buttonStyleSmall checkboxStyle checkedTextViewStyle colorAccent colorBackgroundFloating colorButtonNormal colorControlActivated colorControlHighlight colorControlNormal colorError colorPrimary colorPrimaryDark colorSwitchThumbNormal controlBackground dialogPreferredPadding dialogTheme dividerHorizontal dividerVertical dropDownListViewStyle dropdownListPreferredItemHeight editTextBackground editTextColor editTextStyle homeAsUpIndicator imageButtonStyle listChoiceBackgroundIndicator listDividerAlertDialog listMenuViewStyle listPopupWindowStyle listPreferredItemHeight listPreferredItemHeightLarge listPreferredItemHeightSmall listPreferredItemPaddingLeft listPreferredItemPaddingRight panelBackground panelMenuListTheme panelMenuListWidth popupMenuStyle popupWindowStyle radioButtonStyle ratingBarStyle ratingBarStyleIndicator ratingBarStyleSmall searchViewStyle seekBarStyle selectableItemBackground selectableItemBackgroundBorderless spinnerDropDownItemStyle spinnerStyle switchStyle textAppearanceLargePopupMenu textAppearanceListItem textAppearanceListItemSecondary textAppearanceListItemSmall textAppearancePopupMenuHeader textAppearanceSearchResultSubtitle textAppearanceSearchResultTitle textAppearanceSmallPopupMenu textColorAlertDialogListItem textColorSearchUrl toolbarNavigationButtonStyle toolbarStyle tooltipForegroundColor tooltipFrameBackground viewInflaterClass windowActionBar windowActionBarOverlay windowActionModeOverlay windowFixedHeightMajor windowFixedHeightMinor windowFixedWidthMajor windowFixedWidthMinor windowMinWidthMajor windowMinWidthMinor windowNoTitle
 styleable BallPulseFooter srlAnimatingColor srlClassicsSpinnerStyle srlNormalColor
+styleable Banner banner_default_image banner_layout delay_time image_scale_type indicator_drawable_selected indicator_drawable_unselected indicator_height indicator_margin indicator_width is_auto_play scroll_time title_background title_height title_textcolor title_textsize
 styleable BezierRadarHeader srlAccentColor srlEnableHorizontalDrag srlPrimaryColor
 styleable BottomNavigationView elevation itemBackground itemIconTint itemTextColor menu
 styleable BottomSheetBehavior_Layout behavior_hideable behavior_peekHeight behavior_skipCollapsed

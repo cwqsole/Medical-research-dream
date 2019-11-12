@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\86155\\Desktop\\project\\MedicalMall2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ca\\values-ca.xml",
+            "outputFile": "C:\\Users\\yurisa\\Desktop\\yym3\\MedicalMall22\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ca\\values-ca.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\86155\\.gradle\\caches\\transforms-2\\files-2.1\\9ba71b835c1e7f4f0cdf7e4d0b92914c\\res\\values-ca\\values-ca.xml",
+                    "source": "C:\\Users\\yurisa\\.gradle\\caches\\transforms-2\\files-2.1\\965f5019a05b3fe08a9d6d8260f4a8af\\res\\values-ca\\values-ca.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\86155\\.gradle\\caches\\transforms-2\\files-2.1\\9a948df07aa5775b106ee20f74cea8f8\\res\\values-ca\\values-ca.xml",
+                    "source": "C:\\Users\\yurisa\\.gradle\\caches\\transforms-2\\files-2.1\\d54e3fc0b62a48416f068f4c19c4af00\\res\\values-ca\\values-ca.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

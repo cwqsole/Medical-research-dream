@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:orientation="horizontal"
+    android:background="#E7E7E7"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <TextView
+        android:gravity="center"
+
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="16sp"
+        android:text="已加载全部"
+       />
+</RelativeLayout>

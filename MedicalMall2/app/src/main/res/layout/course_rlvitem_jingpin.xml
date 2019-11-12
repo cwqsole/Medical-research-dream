@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#fff"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:layout_marginLeft="13dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:text="精品课程"/>
+</RelativeLayout>

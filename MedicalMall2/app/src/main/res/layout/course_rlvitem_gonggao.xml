@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    android:background="#E7E7E7"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <ImageView
+        android:layout_marginLeft="10dp"
+
+        android:layout_centerVertical="true"
+        android:layout_width="40dp"
+        android:id="@+id/gg"
+        android:layout_height="40dp"
+        android:src="@drawable/gonggao"/>
+    <com.example.usercwq.medicalmall.net.ScrollTextView
+       android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/gg"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/course_scrolltv"></com.example.usercwq.medicalmall.net.ScrollTextView>
+
+</RelativeLayout>

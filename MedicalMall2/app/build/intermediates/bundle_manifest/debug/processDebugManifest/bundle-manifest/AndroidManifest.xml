@@ -28,6 +28,7 @@
         <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.LoginActivity" />
         <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.NotifyActivity" />
         <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.NotifyDateilActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.WebActivity" />
         <activity
             android:name="com.example.usercwq.medicalmall.ui.main.MainActivity"
             android:theme="@style/NoActionBar" >
@@ -116,6 +117,11 @@
             android:label="@string/leak_canary_storage_permission_activity_label"
             android:taskAffinity="com.squareup.leakcanary.com.example.usercwq.medicalmall"
             android:theme="@style/leak_canary_Theme.Transparent" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.usercwq.medicalmall.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

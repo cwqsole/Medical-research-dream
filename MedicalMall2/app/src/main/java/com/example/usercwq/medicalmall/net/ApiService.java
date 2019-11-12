@@ -1,6 +1,7 @@
 package com.example.usercwq.medicalmall.net;
 
 import com.example.usercwq.medicalmall.bean.MainBean;
+import com.example.usercwq.medicalmall.bean.course.CourseBean;
 import com.example.usercwq.medicalmall.bean.my_bean.MyNotifyBean;
 import com.example.usercwq.medicalmall.bean.phone_bean.PhoineBean;
 import com.example.usercwq.medicalmall.bean.register_bean.LoginBean;
@@ -65,6 +66,11 @@ public interface ApiService {
     //通知
     @GET("index.php/forum/notice_list")
     Observable<MyNotifyBean> getBean();
+
+  public static final String Url_zhengshi = "https://app.yiyanmeng.com/index.php/";//正式
+  //第三个页面课程
+  @GET("kecheng/ke_index_list")
+  Observable<CourseBean> getCourse();
 }
 
 
