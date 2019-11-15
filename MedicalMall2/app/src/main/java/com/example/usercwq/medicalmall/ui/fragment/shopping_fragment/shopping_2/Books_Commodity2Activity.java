@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -16,8 +17,11 @@ import com.bumptech.glide.Glide;
 import com.example.usercwq.medicalmall.R;
 import com.example.usercwq.medicalmall.app.MyLication;
 import com.example.usercwq.medicalmall.bean.shopping_bean.BookBean;
+import com.example.usercwq.medicalmall.bean.shopping_bean.GatherBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.ParticularsBean;
+import com.example.usercwq.medicalmall.bean.shopping_bean.ShopBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.WholeBean;
+import com.example.usercwq.medicalmall.db.ShopBeanDao;
 import com.example.usercwq.medicalmall.http.HttpUtils;
 import com.example.usercwq.medicalmall.net.ApiService;
 import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.BuyActivity;
@@ -62,8 +66,10 @@ public class Books_Commodity2Activity extends AppCompatActivity implements View.
     private WebView mWebView;
     private String mMAccess_token;
 
-    private ParticularsBean.InfoBean.ShopBean mPar;
+
     private String mPic;
+    private String mId;
+    private ShopBean mPar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -130,12 +136,16 @@ public class Books_Commodity2Activity extends AppCompatActivity implements View.
     @Subscribe(threadMode = ThreadMode.MAIN, sticky = true)
     public void getMog(BookBean.InfoBean infoBean) {
         if (infoBean != null) {
-            String id = infoBean.getId();
+            mId = infoBean.getId();
             mPic = infoBean.getPic();
-            initid(id);
+            initid(mId);
+
+
 
         }
     }
+
+
 
     private void initid(String id) {
         mMAccess_token = MyLication.mAccess_token;
@@ -153,8 +163,7 @@ public class Books_Commodity2Activity extends AppCompatActivity implements View.
                     @Override
                     public void onNext(ParticularsBean particularsBean) {
                         if (particularsBean.getInfo() != null) {
-                           mPar = particularsBean.getInfo().getShop();
-
+                            mPar = particularsBean.getInfo().getShop();
                             mTvName.setText(mPar.getName());
                             mTvYuanPrice = findViewById(R.id.tv_yuan_price);
                             mTvPrice.setText("￥" + mPar.getXian_price());
@@ -201,18 +210,27 @@ public class Books_Commodity2Activity extends AppCompatActivity implements View.
             case R.id.tv_follow2:   //收藏
                 Toast.makeText(this, "收藏", Toast.LENGTH_SHORT).show();
                 Intent intent2 = new Intent(this, CollectActivity.class);
+               // EventBus.getDefault().postSticky(mPar);
+                Log.i("TAG", "onClick-----------: "+mPar.getName());
                 startActivity(intent2);
                 break;
 
             case R.id.tv_add_cart:  //加入购物车
                 Toast.makeText(this, "加入购物车", Toast.LENGTH_SHORT).show();
-//                Intent intent3 = new Intent(this, AddShoppingActivity.class);
+//                Intent intent3 = new Intent(this, AddShoppingActicty.class);
 //                startActivity(intent3);
+                ShopBeanDao shopBeanDao = MyLication.getInstance().getDaoSession().getShopBeanDao();
+
                 break;
 
             case R.id.tv_quick_buy: // 立即购买
                 Toast.makeText(this, "立即购买", Toast.LENGTH_SHORT).show();
                 Intent intent4 = new Intent(this, BuyActivity.class);
+                String name = mPar.getName();  //名字
+                String xian_price = mPar.getXian_price();  //价格
+                String pic = mPar.getPic();  //图片
+                GatherBean gatherBean = new GatherBean(name,pic,xian_price,"x1","卖家发货:七天内到达");
+                EventBus.getDefault().postSticky(gatherBean);
                 startActivity(intent4);
                 break;
         }

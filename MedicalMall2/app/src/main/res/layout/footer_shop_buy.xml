@@ -102,7 +102,7 @@
         <TextView
             android:layout_marginRight="5dp"
             android:layout_toLeftOf="@+id/txt3"
-            android:text="共 件商品"
+            android:text="共 1件商品"
             android:id="@+id/tv_shuliang"
             android:textColor="@color/txt_26"
             android:layout_width="wrap_content"
@@ -112,9 +112,9 @@
             android:id="@+id/txt3"
             android:layout_toLeftOf="@+id/tv_total"
             android:text="小计：￥"
+
             android:textSize="15sp"
             android:textColor="@color/txt_26"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 

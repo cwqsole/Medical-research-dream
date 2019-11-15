@@ -1,6 +1,7 @@
 package com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -34,8 +35,12 @@ public class SiteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_site);
         //管理收货地址
-        initview();
-        initciews();
+//        SharedPreferences shar = getSharedPreferences("mina", MODE_PRIVATE);
+//        boolean boolean1 = shar.getBoolean("flag", false);
+//
+            initview();
+            initciews();
+
 
 
     }

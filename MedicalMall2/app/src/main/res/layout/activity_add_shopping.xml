@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title"
+        android:id="@+id/clude"
+        />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/view"
+        android:layout_below="@+id/clude"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorWhite" >
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_del"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="删除"
+            android:textColor="@color/colorTheme"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/theme_white_bg15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_collect"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="移入收藏夹"
+            android:layout_toLeftOf="@+id/tv_del"
+            android:textColor="@color/colorTheme"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/theme_white_bg15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl3"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="1dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/rl3"
+        android:background="@color/colorLine" />
+
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorWhite">
+
+        <CheckBox
+        android:layout_centerVertical="true"
+        android:id="@+id/checkbox"
+        style="@style/AddressCheckboxTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@null"
+        android:padding="10dp"
+        android:text="全选"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+        <TextView
+            android:layout_toRightOf="@+id/checkbox"
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="合计："
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/price"
+            android:text="￥0.0"
+            android:textColor="@color/txt_red"
+            android:textSize="19sp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_place_order"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/red_2dpbg"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="去结算"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

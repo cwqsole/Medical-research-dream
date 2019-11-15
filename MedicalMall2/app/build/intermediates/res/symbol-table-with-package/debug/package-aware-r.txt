@@ -580,6 +580,35 @@ attr wshAccentColor
 attr wshPrimaryColor
 attr wshShadowColor
 attr wshShadowRadius
+attr xTabBackgroundColor
+attr xTabContentStart
+attr xTabDisplayNum
+attr xTabDividerColor
+attr xTabDividerGravity
+attr xTabDividerHeight
+attr xTabDividerWidth
+attr xTabDividerWidthWidthText
+attr xTabGravity
+attr xTabIndicatorColor
+attr xTabIndicatorHeight
+attr xTabIndicatorWidth
+attr xTabMaxWidth
+attr xTabMinWidth
+attr xTabMode
+attr xTabPadding
+attr xTabPaddingBottom
+attr xTabPaddingEnd
+attr xTabPaddingStart
+attr xTabPaddingTop
+attr xTabSelectedBackgroundColor
+attr xTabSelectedTextColor
+attr xTabSelectedTextSize
+attr xTabTextAllCaps
+attr xTabTextAppearance
+attr xTabTextBold
+attr xTabTextColor
+attr xTabTextSelectedBold
+attr xTabTextSize
 bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
@@ -1449,6 +1478,7 @@ id chronometer
 id circleIndicator
 id clip_horizontal
 id clip_vertical
+id clude
 id collapseActionView
 id container
 id content
@@ -1568,6 +1598,7 @@ id listMode
 id list_item
 id ll
 id ll_center
+id ll_container
 id ll_daojishi
 id ll_main
 id ll_pass
@@ -1608,6 +1639,7 @@ id percent
 id phone
 id pin
 id pos_view
+id price
 id progress
 id progress_bar_parent
 id progress_circular
@@ -1643,7 +1675,6 @@ id rl_about_us
 id rl_address
 id rl_call_custom
 id rl_cart
-id rl_main
 id rl_my_class
 id rl_my_order
 id rl_mycollect
@@ -1707,6 +1738,7 @@ id tab
 id tabMode
 id tab_channel
 id tabla
+id tabs
 id tag_transition_group
 id text
 id text2
@@ -1743,6 +1775,7 @@ id tv_agreement
 id tv_amount_desc
 id tv_cancel
 id tv_choose
+id tv_collect
 id tv_confirm
 id tv_content
 id tv_current
@@ -1760,9 +1793,9 @@ id tv_find_pass_1
 id tv_follow2
 id tv_get_code
 id tv_hot
+id tv_info
 id tv_inshop
 id tv_kecheng
-id tv_left
 id tv_login
 id tv_message
 id tv_modify
@@ -1772,8 +1805,11 @@ id tv_name2
 id tv_name_big
 id tv_no_data
 id tv_no_num
+id tv_num
 id tv_ok
 id tv_pass_login
+id tv_place_order
+id tv_plus
 id tv_price
 id tv_price_big
 id tv_price_big2
@@ -1781,6 +1817,7 @@ id tv_quick_buy
 id tv_quick_get_code
 id tv_quick_login
 id tv_quick_register
+id tv_reduce
 id tv_register
 id tv_right
 id tv_sale_num
@@ -1797,6 +1834,8 @@ id tv_tip2
 id tv_tip3
 id tv_title
 id tv_total
+id tv_totalPrice
+id tv_totalPrice1
 id tv_total_money
 id tv_total_price
 id tv_tui
@@ -1841,6 +1880,7 @@ id viewPager
 id view_offset_helper
 id view_pass
 id view_quick
+id viewpager
 id visible
 id volume_progressbar
 id weak
@@ -1889,6 +1929,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_shopping
 layout activity_books__commodity2
 layout activity_buy
 layout activity_collect
@@ -1904,6 +1945,8 @@ layout activity_shopping
 layout activity_site
 layout activity_whole_commodity2
 layout activity_wxentry
+layout article_collect
+layout article_shop
 layout banner
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1934,9 +1977,11 @@ layout fragment_whole
 layout head_my
 layout include_line
 layout item_add
+layout item_booking_car
 layout item_books
 layout item_bookt
 layout item_dingdao
+layout item_my_collect
 layout item_whole1
 layout item_whole2
 layout jc_layout_base
@@ -1972,6 +2017,7 @@ layout socialize_share_menu_item
 layout support_simple_spinner_dropdown_item
 layout title_my
 layout toolbar
+layout top_title
 layout umeng_socialize_oauth_dialog
 layout umeng_socialize_share
 layout whole_title
@@ -2096,6 +2142,7 @@ string umeng_socialize_sharetotencent
 string umeng_socialize_sharetotwitter
 string unknow_error
 style Address1CheckboxTheme
+style AddressCheckboxTheme
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AnimBottom
@@ -2575,3 +2622,4 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable WaveSwipeHeader wshAccentColor wshPrimaryColor wshShadowColor wshShadowRadius
+styleable XTabLayout xTabBackgroundColor xTabContentStart xTabDisplayNum xTabDividerColor xTabDividerGravity xTabDividerHeight xTabDividerWidth xTabDividerWidthWidthText xTabGravity xTabIndicatorColor xTabIndicatorHeight xTabIndicatorWidth xTabMaxWidth xTabMinWidth xTabMode xTabPadding xTabPaddingBottom xTabPaddingEnd xTabPaddingStart xTabPaddingTop xTabSelectedBackgroundColor xTabSelectedTextColor xTabSelectedTextSize xTabTextAllCaps xTabTextAppearance xTabTextBold xTabTextColor xTabTextSelectedBold xTabTextSize

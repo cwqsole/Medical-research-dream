@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'org.greenrobot.greendao'
 android {
     compileSdkVersion 27
     defaultConfig {
@@ -35,6 +35,14 @@ android {
             keyAlias "medicalresearchdream"
             keyPassword "123456"
         }
+    }
+    greendao {
+        //数据库版本号，升级时修改
+        schemaVersion 1
+        //生成的DAO，DaoMaster和DaoSession的包路径。默认与表实体所在的包路径相同
+        daoPackage 'com.example.usercwq.medicalmall.db'
+        //生成源文件的路径。默认源文件目录是在build目录中的(build/generated/source/greendao)
+        targetGenDir 'src/main/java'
     }
 }
 
@@ -108,7 +116,7 @@ dependencies {
     implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4-7'
 
 
-   // Lottie
+    // Lottie
     //引入依赖
     implementation 'com.airbnb.android:lottie:2.2.0'
 
@@ -118,6 +126,12 @@ dependencies {
 
     //选择地区
     implementation 'liji.library.dev:citypickerview:0.7.0'
-        //视频
-    compile 'fm.jiecao:jiecaovideoplayer:4.6.3'
+    //视频
+    implementation 'fm.jiecao:jiecaovideoplayer:4.6.3'
+    //xtabLayout新控件  进行了功能的扩展
+    implementation 'com.androidkun:XTabLayout:1.1.3'
+    //数据库
+    implementation 'org.greenrobot:greendao:3.2.2' // add library
+    implementation 'org.greenrobot:greendao-generator:3.2.2'
+
 }

@@ -1,10 +1,12 @@
 package com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_manage;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -41,6 +43,7 @@ public class ReceivingActivity extends AppCompatActivity implements View.OnClick
 
     private void initview() {
         mImageBack = findViewById(R.id.image_back);
+        mImageBack.setOnClickListener(this);
         mTvTitle = findViewById(R.id.tv_title);
         mTvName = findViewById(R.id.tv_name);
         mTvChoose = findViewById(R.id.tv_choose);
@@ -58,16 +61,16 @@ public class ReceivingActivity extends AppCompatActivity implements View.OnClick
     }
 
 
-    //Texview的点击事件
-//    public void chooseArea(View view) {
-//        //判断输入法的隐藏状态
-//        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-//        if (imm.isActive()) {
-//            imm.hideSoftInputFromWindow(view.getWindowToken(),
-//                    InputMethodManager.HIDE_NOT_ALWAYS);
-//            selectAddress();//调用CityPicker选取区域
-//        }
-
+   // Texview的点击事件
+    public void chooseArea(View view) {
+        //判断输入法的隐藏状态
+        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (imm.isActive()) {
+            imm.hideSoftInputFromWindow(view.getWindowToken(),
+                    InputMethodManager.HIDE_NOT_ALWAYS);
+            selectAddress();//调用CityPicker选取区域
+        }
+    }
 
     @Override
     public void onClick(View v) {

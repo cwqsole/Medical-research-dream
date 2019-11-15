@@ -11,12 +11,14 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.usercwq.medicalmall.R;
 import com.example.usercwq.medicalmall.bean.shopping_bean.Adress;
 import com.example.usercwq.medicalmall.bean.shopping_bean.GatherBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.WholeBean;
 import com.example.usercwq.medicalmall.ui.adapters.shopping_adpter.MyApterBuy;
+import com.example.usercwq.medicalmall.utils.ToastUtil;
 import com.umeng.commonsdk.debug.E;
 
 import org.greenrobot.eventbus.EventBus;
@@ -47,6 +49,10 @@ public class BuyActivity extends AppCompatActivity implements View.OnClickListen
     private String mPhone1;
     private String mAddress;
     private String mDetails;
+    private String mName2;
+    private String mYuanPrice;
+    private String mPrice;
+    private MyApterBuy mYApterBuy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,19 +68,27 @@ public class BuyActivity extends AppCompatActivity implements View.OnClickListen
     private void intivises() {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+       // Log.i("TAG", "getMog----: 名字："+ mName2 +"价格:"+ mYuanPrice +"图片"+ mPrice);
+        mYApterBuy = new MyApterBuy(mName2, mYuanPrice, mPrice, this);
+        mRecyclerView.setAdapter(mYApterBuy);
+
+        //--合计金额------------------
+        mTvTotalMoney.setText("合计金额: ￥"+mYuanPrice);
+        //共 1件商品
+        //mTvShuliang.setText();
+        //小计:
+        mTxt3.setText("￥"+mYuanPrice);
+      //  mTxt3.setTextColor(R.color.txt_red);
 
     }
     //接收数据
     @Subscribe(threadMode = ThreadMode.MAIN, sticky = true)
     public void getMog2(GatherBean gatherBean) {
         if (gatherBean != null) {
-            String name = gatherBean.getName();
-            String yuanPrice = gatherBean.getYuanPrice();
-            String price = gatherBean.getPrice();
-            Log.i("TAG", "getMog: 名字："+name+"价格:"+yuanPrice+"图片"+price);
-            MyApterBuy myApterBuy = new MyApterBuy(name, yuanPrice, price, this);
-            mRecyclerView.setAdapter(myApterBuy);
-
+            mName2 = gatherBean.getName();
+            mYuanPrice = gatherBean.getYuanPrice();
+            mPrice = gatherBean.getPrice();
+            mYApterBuy.notifyDataSetChanged();
         }
 
     }
@@ -94,6 +108,7 @@ public class BuyActivity extends AppCompatActivity implements View.OnClickListen
         mTvTotal = findViewById(R.id.tv_total);
         mTvTotalMoney = findViewById(R.id.tv_total_money);
         mTvSubmitOrder = findViewById(R.id.tv_submit_order);
+        mTvSubmitOrder.setOnClickListener(this);
         // 整个布局
         mViewById = findViewById(R.id.re3);
         mViewById.setOnClickListener(this);
@@ -102,6 +117,8 @@ public class BuyActivity extends AppCompatActivity implements View.OnClickListen
         //手机号
         mPhone = findViewById(R.id.phone);
         //地址
+
+
 
     }
     //接收数据
@@ -114,8 +131,8 @@ public class BuyActivity extends AppCompatActivity implements View.OnClickListen
         mSite = findViewById(R.id.site);
         mName.setText("收件人"+mName1);
         mPhone.setText(mPhone1);
-        mSite.setText(mAddress+""+mDetails);
-        Log.i("getMog","====="+adress.getPhone());
+        mSite.setText(mDetails+""+mAddress);
+       // Log.i("getMog","====="+adress.getPhone());
 
 
     }
@@ -129,6 +146,11 @@ public class BuyActivity extends AppCompatActivity implements View.OnClickListen
             case R.id.re3:  //跳转到  添加页面
                 Intent intent = new Intent(this, SiteActivity.class);
                 startActivity(intent);
+                break;
+            case R.id.tv_submit_order:
+                //购买
+                Toast.makeText(this, "提交订单完成", Toast.LENGTH_SHORT).show();
+
                 break;
         }
     }

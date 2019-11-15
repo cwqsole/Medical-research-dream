@@ -94,6 +94,7 @@ public class WholeFragment extends BaseFragment<WholePresenter, WholeView> imple
             public void onClick2(int position) {
                 //课程
                  Intent intent = new Intent(getContext(), Curr_Commodity2Activity.class);
+
                 startActivity(intent);
 
             }
@@ -121,6 +122,7 @@ public class WholeFragment extends BaseFragment<WholePresenter, WholeView> imple
 
     @Override
     public void initData() {
+
         mMAccess_token = MyLication.mAccess_token;
         mPresenter.getfyCodeView(mMAccess_token,start,end);
     }

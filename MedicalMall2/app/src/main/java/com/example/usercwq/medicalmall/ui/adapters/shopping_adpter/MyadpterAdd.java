@@ -43,7 +43,7 @@ public class MyadpterAdd extends RecyclerView.Adapter {
         MyHolderadd myHolderadd = (MyHolderadd) holder;
         myHolderadd.mTvName.setText(mStrings.get(position).getName());
         myHolderadd.mTvTel.setText(mStrings.get(position).getPhone());
-        myHolderadd.mTvContent.setText(mStrings.get(position).getAddress()+mStrings.get(position).getDetails());
+        myHolderadd.mTvContent.setText(mStrings.get(position).getDetails()+mStrings.get(position).getAddress());
         myHolderadd.mTvEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

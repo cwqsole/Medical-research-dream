@@ -92,20 +92,20 @@ public class Curr_Commodity2Activity extends AppCompatActivity {
 
 
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        if(MyLication.sContext.VideoPlaying!=null)
-        {
-            if(MyLication.sContext.VideoPlaying.currentState== JCVideoPlayer.CURRENT_STATE_PLAYING)
-            {
-                MyLication.sContext.VideoPlaying.startButton.performClick();
-            }else if (MyLication.sContext.VideoPlaying.currentState== JCVideoPlayer.CURRENT_STATE_PREPAREING)
-            {
-                JCVideoPlayer.releaseAllVideos();
-            }
-        }
-    }
+//    @Override
+//    protected void onPause() {
+//        super.onPause();
+//        if(MyLication.sContext.VideoPlaying!=null)
+//        {
+//            if(MyLication.sContext.VideoPlaying.currentState== JCVideoPlayer.CURRENT_STATE_PLAYING)
+//            {
+//                MyLication.sContext.VideoPlaying.startButton.performClick();
+//            }else if (MyLication.sContext.VideoPlaying.currentState== JCVideoPlayer.CURRENT_STATE_PREPAREING)
+//            {
+//                JCVideoPlayer.releaseAllVideos();
+//            }
+//        }
+//    }
     private void inittab() {
         MyviewPter myviewPter = new MyviewPter(getSupportFragmentManager(), initDatat(), mTitles);
         mViewPager.setAdapter(myviewPter);

@@ -39,9 +39,8 @@ public class MyApterBuy extends RecyclerView.Adapter {
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         MyHolder myHolder = (MyHolder) holder;
-        Log.i("TAG", "onBindViewHolder: "+myHolder.mName);
         myHolder.mName.setText(name);
-        myHolder.mTvPrice.setText(yuanPrice);
+        myHolder.mTvPrice.setText("￥"+yuanPrice);
         Glide.with(mContext).load(price).into(myHolder.mImage);
 
     }

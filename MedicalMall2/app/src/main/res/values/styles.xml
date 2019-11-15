@@ -21,7 +21,9 @@
     </style>
 
 
-
+    <style name="AddressCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style3</item>
+    </style>
 
     <!--底部导航RadioGroup-->
     <style name="main_bottom_tab_style">

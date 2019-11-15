@@ -2,9 +2,7 @@ package com.example.usercwq.medicalmall.ui.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
@@ -14,9 +12,10 @@ import com.example.usercwq.medicalmall.R;
 import com.example.usercwq.medicalmall.mvp.view.presenter.SuoPresenter;
 import com.example.usercwq.medicalmall.mvp.view.view.SuoView;
 import com.example.usercwq.medicalmall.ui.acticitys_my.LoginActivity;
+import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.AddShoppingActicty;
+import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.CollectActivity;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.Unbinder;
 
@@ -94,7 +93,7 @@ public class MyFragment extends BaseFragment<SuoPresenter, SuoView> {
                 startActivity(new Intent(getActivity(), LoginActivity.class));
                 break;
             case R.id.rl_cart:
-                startActivity(new Intent(getActivity(), LoginActivity.class));
+                startActivity(new Intent(getActivity(), AddShoppingActicty.class));
                 break;
             case R.id.rl_my_order:
                 startActivity(new Intent(getActivity(), LoginActivity.class));
@@ -106,7 +105,7 @@ public class MyFragment extends BaseFragment<SuoPresenter, SuoView> {
                 startActivity(new Intent(getActivity(), LoginActivity.class));
                 break;
             case R.id.rl_mycollect:
-                startActivity(new Intent(getActivity(), LoginActivity.class));
+                startActivity(new Intent(getActivity(), CollectActivity.class));
                 break;
             case R.id.rl_online_ask:
                 startActivity(new Intent(getActivity(), LoginActivity.class));

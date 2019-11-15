@@ -4,7 +4,24 @@
             "outputFile": "E:\\Learningcatalogue\\study\\Android\\xm\\MedicalMall2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\8a0ea9afbeed0910a8b54c8474e23b5f\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\5eb2c0db6961b3ae407e2c9fd9fedfe7\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,161,215",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "92,156,210,265"
+                    },
+                    "to": {
+                        "startLines": "9,27,28,29",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "438,1490,1554,1608",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "475,1549,1603,1658"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\17910985de5f9a98cdae123f0708532e\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,30 +38,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\35a4cb253400ab92c4f2a286034732a4\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\27c9a67c25de5848215e32dc523ec49b\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
                         "startOffsets": "55,108,162,219,271,324,381",
                         "endColumns": "52,53,56,51,52,56,56",
                         "endOffsets": "103,157,214,266,319,376,433"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\8b222b588e7463bc3ab1fb8f6a2b5966\\res\\values-zh\\values-zh.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,97,161,215",
-                        "endColumns": "41,63,53,54",
-                        "endOffsets": "92,156,210,265"
-                    },
-                    "to": {
-                        "startLines": "9,27,28,29",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "438,1490,1554,1608",
-                        "endColumns": "41,63,53,54",
-                        "endOffsets": "475,1549,1603,1658"
                     }
                 }
             ]

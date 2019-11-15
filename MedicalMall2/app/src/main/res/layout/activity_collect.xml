@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragment.shopping_fragment.shopping_buy3.CollectActivity">
-    <TextView
+    android:background="@color/colorBg"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title"/>
+
+    <com.androidkun.xtablayout.XTabLayout
+        android:id="@+id/tabs"
         android:layout_width="match_parent"
-        android:text="收藏"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorWhite"
+        android:fillViewport="false"
+        app:layout_scrollFlags="scroll"
+        app:xTabTextColor="@color/colorTabText"
+        app:xTabIndicatorColor="@color/colorTheme"
+        app:xTabIndicatorHeight="2.0dp"
+        app:xTabIndicatorWidth="50dp"
+        app:xTabTextSize="16sp"
+        app:xTabSelectedTextColor="@color/colorTheme"/>
+
+    <View
+        android:background="@color/colorBg"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-</android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
