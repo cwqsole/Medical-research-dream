@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Learningcatalogue\\study\\Android\\xm\\MedicalMall2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "D:\\Medical\\MedicalMall2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\0df245ad4b794ff84f8fb4a3eba3252f\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\86155\\.gradle\\caches\\transforms-2\\files-2.1\\eb04539aa1484364ce3557d7f12f2fbd\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

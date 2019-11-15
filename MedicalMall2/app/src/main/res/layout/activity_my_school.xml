@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.acticitys_my.MySchoolActivity"
+    android:orientation="vertical">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        layout="@layout/notify_top"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="我要报考的时间"
+        android:paddingTop="100dp"
+        android:paddingBottom="10dp"
+        android:textSize="18dp"
+        android:id="@+id/time_select"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        layout="@layout/item_line"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="我要报考的院校"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:textSize="18dp"
+        android:id="@+id/school_select"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        layout="@layout/item_line"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_select"
+        android:layout_margin="30dp"
+        android:background="@drawable/btn_shape"
+        android:text="完成"
+        android:textSize="18dp"
+        android:textColor="@color/colorWhite"/>
+
+</LinearLayout>

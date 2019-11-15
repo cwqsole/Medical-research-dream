@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.acticitys_my.MyAddressActivity">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        layout="@layout/notify_top"
+        android:id="@+id/top_address"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rlv_address"
+        android:layout_below="@id/top_address"
+        android:layout_above="@id/btn_address"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTheme"
+        android:layout_alignParentBottom="true"
+        android:text="新建地址"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:id="@+id/btn_address"/>
+
+</RelativeLayout>

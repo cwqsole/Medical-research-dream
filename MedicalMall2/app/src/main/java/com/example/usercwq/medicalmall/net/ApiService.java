@@ -1,6 +1,7 @@
 package com.example.usercwq.medicalmall.net;
 
 import com.example.usercwq.medicalmall.bean.MainBean;
+import com.example.usercwq.medicalmall.bean.my_bean.MyNotifyBean;
 import com.example.usercwq.medicalmall.bean.phone_bean.PhoineBean;
 import com.example.usercwq.medicalmall.bean.register_bean.LoginBean;
 import com.example.usercwq.medicalmall.bean.register_bean.Register2Bean;
@@ -78,7 +79,9 @@ public interface ApiService {
     @GET("index.php/Shiti/ti_type_list")
     Observable<TikuBean> getTiKuBean(@Header("A-uthorization") String accout);
 
-
+  //通知
+    @GET("index.php/forum/notice_list")
+    Observable<MyNotifyBean> getBean();
 
 }
 

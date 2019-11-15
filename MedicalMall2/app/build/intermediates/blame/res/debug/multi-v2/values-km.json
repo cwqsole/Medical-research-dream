@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Learningcatalogue\\study\\Android\\xm\\MedicalMall2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
+            "outputFile": "D:\\Medical\\MedicalMall2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\13ce3a3fbbd85edc10385931b4df94cf\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\86155\\.gradle\\caches\\transforms-2\\files-2.1\\eb04539aa1484364ce3557d7f12f2fbd\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,308,420,507,611,729,806,883,966,1070,1175,1275,1385,1492,1600,1762,1860",
+                        "endColumns": "102,99,111,86,103,117,76,76,82,103,104,99,109,106,107,161,97,82",
+                        "endOffsets": "203,303,415,502,606,724,801,878,961,1065,1170,1270,1380,1487,1595,1757,1855,1938"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\86155\\.gradle\\caches\\transforms-2\\files-2.1\\9910e5b0e2d6b930db13e3b2c04010a5\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1943",
                         "endColumns": "100",
                         "endOffsets": "2039"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\0df245ad4b794ff84f8fb4a3eba3252f\\res\\values-km\\values-km.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,208,308,420,507,611,729,806,883,966,1070,1175,1275,1385,1492,1600,1762,1860",
-                        "endColumns": "102,99,111,86,103,117,76,76,82,103,104,99,109,106,107,161,97,82",
-                        "endOffsets": "203,303,415,502,606,724,801,878,961,1065,1170,1270,1380,1487,1595,1757,1855,1938"
                     }
                 }
             ]

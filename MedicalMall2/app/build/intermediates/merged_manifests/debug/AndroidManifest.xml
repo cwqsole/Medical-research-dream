@@ -26,26 +26,41 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/NoActionBar" >
-        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.AddShoppingActicty" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.AddShoppingActicty" />
         <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.CourseFragment" />
         <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.CurriculumFragment" />
         <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_manage.ReceivingActivity" />
-        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.SiteActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.SiteActivity" />
         <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.BuyActivity" />
         <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.Curr_Commodity2Activity" />
         <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.Books_Commodity2Activity" />
-        <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.CollectActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.CollectActivity" />
         <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.ShoppingActivity" />
         <activity android:name="com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.WholeCommodity2Activity" />
         <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.LoginActivity" />
-        <activity
-            android:name="com.example.usercwq.medicalmall.ui.main.MainActivity"
-            android:theme="@style/NoActionBar" >
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.MyPassUpActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.MySelfActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.MyShoopingActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.MyOrderActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.MyAddActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.MyAddressActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.MyClassActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.MyCollectActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.MyOnlineActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.MyAboutActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.MySchoolActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.NotifyActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.NotifyDateilActivity" />
+        <activity android:name="com.example.usercwq.medicalmall.ui.acticitys_my.LeadActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.usercwq.medicalmall.ui.main.MainActivity"
+            android:theme="@style/NoActionBar" >
         </activity> <!-- 友盟集成start -->
         <!-- 新浪： -->
         <activity

@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -16,16 +15,12 @@ import android.widget.Toast;
 import com.example.usercwq.medicalmall.R;
 import com.example.usercwq.medicalmall.bean.shopping_bean.Adress;
 import com.example.usercwq.medicalmall.bean.shopping_bean.GatherBean;
-import com.example.usercwq.medicalmall.bean.shopping_bean.WholeBean;
+import com.example.usercwq.medicalmall.ui.acticitys_my.SiteActivity;
 import com.example.usercwq.medicalmall.ui.adapters.shopping_adpter.MyApterBuy;
-import com.example.usercwq.medicalmall.utils.ToastUtil;
-import com.umeng.commonsdk.debug.E;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-
-import java.util.ArrayList;
 
 public class BuyActivity extends AppCompatActivity implements View.OnClickListener {
 

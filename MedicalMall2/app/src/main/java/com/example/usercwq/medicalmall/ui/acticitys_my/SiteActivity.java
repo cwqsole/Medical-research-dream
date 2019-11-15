@@ -1,7 +1,6 @@
-package com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3;
+package com.example.usercwq.medicalmall.ui.acticitys_my;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -9,11 +8,11 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.usercwq.medicalmall.R;
 import com.example.usercwq.medicalmall.bean.shopping_bean.Adress;
 import com.example.usercwq.medicalmall.ui.adapters.shopping_adpter.MyadpterAdd;
+import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.BuyActivity;
 import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_manage.ReceivingActivity;
 
 import org.greenrobot.eventbus.EventBus;

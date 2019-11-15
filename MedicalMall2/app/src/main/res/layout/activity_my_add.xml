@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.acticitys_my.MyAddActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_add"
+        android:text="收货人："/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_add"
+        android:text="手机号码："
+        android:layout_below="@id/name_add"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/link_add"
+        android:text="读联系人"
+        android:drawableTop="@drawable/touxiang"
+        android:layout_alignParentRight="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="所在地区:"
+        android:layout_below="@id/phone_add"
+        android:id="@+id/address_add"
+        android:drawableRight="@drawable/huadong"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/address_add"
+        android:hint="请输入详细的街道地址"/>
+
+</RelativeLayout>

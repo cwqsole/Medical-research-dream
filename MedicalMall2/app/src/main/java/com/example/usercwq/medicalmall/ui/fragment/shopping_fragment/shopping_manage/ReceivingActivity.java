@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.usercwq.medicalmall.R;
-import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.SiteActivity;
+import com.example.usercwq.medicalmall.ui.acticitys_my.SiteActivity;
 import com.lljjcoder.citypickerview.widget.CityPicker;
 
 public class ReceivingActivity extends AppCompatActivity implements View.OnClickListener {

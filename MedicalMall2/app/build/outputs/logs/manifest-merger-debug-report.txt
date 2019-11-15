@@ -1,411 +1,467 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-91:12
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:17:1-57:12
-MERGED from [com.androidkun:XTabLayout:1.1.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\f6db51a22aba03896b73d94076d5123a\AndroidManifest.xml:2:1-16:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\50699d2ae6a03d34835ca830b194dc08\AndroidManifest.xml:17:1-22:12
-MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\97c3191ad42e46f3dd881715b8e0f773\AndroidManifest.xml:2:1-12:12
-MERGED from [liji.library.dev:citypickerview:0.7.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\6835b3e12177addfa0197a82e35f464e\AndroidManifest.xml:2:1-17:12
-MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\5eb2c0db6961b3ae407e2c9fd9fedfe7\AndroidManifest.xml:2:1-20:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\0df245ad4b794ff84f8fb4a3eba3252f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\8cf92cc3a086b8c86793224f1c15686c\AndroidManifest.xml:2:1-11:12
-MERGED from [com.prolificinteractive:material-calendarview:1.4.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\4bf5dd4214430bd1d87596faeb3c680b\AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\3725478aa7d1ab8dc6ac7746181f7f14\AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\c1f2745332891e6c21aff3f1a6a46070\AndroidManifest.xml:2:1-7:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\a5e08677b62049054eec80f8a6797cd5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\56d06f2f13e8939f2cedb74936996de9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\love\.gradle\caches\transforms-2\files-2.1\17910985de5f9a98cdae123f0708532e\AndroidManifest.xml:2:1-17:12
-MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14] C:\Users\love\.gradle\caches\transforms-2\files-2.1\27c9a67c25de5848215e32dc523ec49b\AndroidManifest.xml:2:1-17:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\81e3253cb73a6a34125e36585ff3d235\AndroidManifest.xml:15:1-21:12
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\7429ad3eee2f8ca9535645fc5f7cef81\AndroidManifest.xml:2:1-12:12
-MERGED from [com.youth.banner:banner:1.4.10] C:\Users\love\.gradle\caches\transforms-2\files-2.1\7058a364e85a4c0d712c21a6029efbe5\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\2614f878291153790400934e2bb81a59\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\50705a0d74547044679a29d5a8ec1891\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\36b326594448f623d43a6c071a1fa620\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\a7149d2a3add1b36573660ec8ba22b21\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\bd48167e3e7d3b89aa37b6327cc30e32\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\2e200589d7139774f8093c659ba395df\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\d5f9b786c890ba915523d0764f8133f6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\13ce3a3fbbd85edc10385931b4df94cf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\83054b916fb350c4b94decdbcdfe0910\AndroidManifest.xml:2:1-11:12
-MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\9a18eb55eaa373775d37f4ca0da3406b\AndroidManifest.xml:2:1-9:12
-MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\c4e4e63f35e9a429989dd940adfec22a\AndroidManifest.xml:2:1-9:12
-MERGED from [tv.danmaku.ijk.media:ijkplayer-arm64:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\0f5fa52391a0675b379b687523d86c6e\AndroidManifest.xml:2:1-9:12
-MERGED from [tv.danmaku.ijk.media:ijkplayer-x86:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\d1c3a90e5a0ffe4ff88997f1cf4f1a89\AndroidManifest.xml:2:1-9:12
-MERGED from [tv.danmaku.ijk.media:ijkplayer-x86_64:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\6b5bb236a8dfc64c655408cb848680f9\AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\98f1e6262af3fa4feea2b0257d268bc3\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\aa61d8bb533c857b038da7a4e2c83ddd\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\3d95cd8a7c934c7efdb648691a4a4b8d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\8e9e3186c3e3decad0b3cc5c2558dc80\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-91:12
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-107:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:17:1-57:12
+MERGED from [com.androidkun:XTabLayout:1.1.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c81154776c28f3aafb59be2011e03600\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\4ca412abf63e1898d643bc4f15686145\AndroidManifest.xml:17:1-22:12
+MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e1d3abc6b05db402bb54f1db190401ec\AndroidManifest.xml:2:1-12:12
+MERGED from [liji.library.dev:citypickerview:0.7.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c3b22e13d67da4ae90e1a2ac7a1c07bb\AndroidManifest.xml:2:1-17:12
+MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e7c2440ebaa9b787aac4a7371299db6a\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\eb04539aa1484364ce3557d7f12f2fbd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\f47ad49bf0023706f7015c1b9fd17dec\AndroidManifest.xml:2:1-11:12
+MERGED from [com.prolificinteractive:material-calendarview:1.4.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\089f57a3564c43a4d2a8bddbdca1b484\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\f6c75e5e179f7e41e01f1b77e1ce36a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\d81dd0ea62d958b0fcd89cdb6d0c3b2e\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\2d8bb3442ba478320dac16d69d131864\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\1a92d54cd74bb7d7000a6d96ee78daaa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\a21bc4c7de0f507ca0e1fccdbf012b08\AndroidManifest.xml:2:1-17:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\7e423a5a906f955089573af441f348d8\AndroidManifest.xml:2:1-17:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5faab9a2fc89b46d3d761858a12053e0\AndroidManifest.xml:15:1-21:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c55ccda56cb3ef2f3868a609ddade831\AndroidManifest.xml:2:1-12:12
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\577fee6089d85802378d7d4ce02b7a6b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c291628077f55f75a2c2745bbbca33d4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\fe8b583964acfca624c276aaab8fc5c2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\cf9ac0df8e89e2bbfb69a1aff2049e85\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\700d57271d95576d9db9b6d0254565a2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e430f559624bb9b293ef3731ce0e4e40\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\bbf2d961a2b3fd17ab9169070f72f2ec\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\0350e5a5ba2d195f8491cfee2a4d4b7c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\9910e5b0e2d6b930db13e3b2c04010a5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\485115b4e47534e20fda3f90c6b0ebdb\AndroidManifest.xml:2:1-11:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\0b28a10a6645dc6ea82105bf3b232cca\AndroidManifest.xml:2:1-9:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\ef1d41f13b9c87ffb75741b248a35f00\AndroidManifest.xml:2:1-9:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-arm64:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\6224bb8b459bb48c6373e74130ca029e\AndroidManifest.xml:2:1-9:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\fd8a38cd427ede7ead9e8381eab27608\AndroidManifest.xml:2:1-9:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86_64:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\65bfc3f4b3181d70cf7ccee99fcdb7fa\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\b6f3a3beea32e23004936fd3a39c9dd2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\22174aa5a5bb78e72af38dd150df90b8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\099920189e3d908e0bbeba322b56627c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e4ee80f419ea009861cb87f376d8f52e\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-107:12
 	package
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:3:5-46
-		INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-91:12
-		INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-107:12
+		INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-91:12
-		INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:2:1-107:12
+		INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:5:5-82:19
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:26:5-55:19
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:26:5-55:19
-MERGED from [com.androidkun:XTabLayout:1.1.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\f6db51a22aba03896b73d94076d5123a\AndroidManifest.xml:11:5-14:19
-MERGED from [com.androidkun:XTabLayout:1.1.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\f6db51a22aba03896b73d94076d5123a\AndroidManifest.xml:11:5-14:19
-MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\97c3191ad42e46f3dd881715b8e0f773\AndroidManifest.xml:10:5-20
-MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\97c3191ad42e46f3dd881715b8e0f773\AndroidManifest.xml:10:5-20
-MERGED from [liji.library.dev:citypickerview:0.7.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\6835b3e12177addfa0197a82e35f464e\AndroidManifest.xml:11:5-15:19
-MERGED from [liji.library.dev:citypickerview:0.7.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\6835b3e12177addfa0197a82e35f464e\AndroidManifest.xml:11:5-15:19
-MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\5eb2c0db6961b3ae407e2c9fd9fedfe7\AndroidManifest.xml:15:5-18:19
-MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\5eb2c0db6961b3ae407e2c9fd9fedfe7\AndroidManifest.xml:15:5-18:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\8cf92cc3a086b8c86793224f1c15686c\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\8cf92cc3a086b8c86793224f1c15686c\AndroidManifest.xml:9:5-20
-MERGED from [com.prolificinteractive:material-calendarview:1.4.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\4bf5dd4214430bd1d87596faeb3c680b\AndroidManifest.xml:12:5-20
-MERGED from [com.prolificinteractive:material-calendarview:1.4.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\4bf5dd4214430bd1d87596faeb3c680b\AndroidManifest.xml:12:5-20
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\love\.gradle\caches\transforms-2\files-2.1\17910985de5f9a98cdae123f0708532e\AndroidManifest.xml:11:5-15:19
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\love\.gradle\caches\transforms-2\files-2.1\17910985de5f9a98cdae123f0708532e\AndroidManifest.xml:11:5-15:19
-MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14] C:\Users\love\.gradle\caches\transforms-2\files-2.1\27c9a67c25de5848215e32dc523ec49b\AndroidManifest.xml:11:5-15:19
-MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14] C:\Users\love\.gradle\caches\transforms-2\files-2.1\27c9a67c25de5848215e32dc523ec49b\AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\7429ad3eee2f8ca9535645fc5f7cef81\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\7429ad3eee2f8ca9535645fc5f7cef81\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\83054b916fb350c4b94decdbcdfe0910\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\83054b916fb350c4b94decdbcdfe0910\AndroidManifest.xml:9:5-20
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:5:5-98:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:26:5-55:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:26:5-55:19
+MERGED from [com.androidkun:XTabLayout:1.1.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c81154776c28f3aafb59be2011e03600\AndroidManifest.xml:11:5-14:19
+MERGED from [com.androidkun:XTabLayout:1.1.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c81154776c28f3aafb59be2011e03600\AndroidManifest.xml:11:5-14:19
+MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e1d3abc6b05db402bb54f1db190401ec\AndroidManifest.xml:10:5-20
+MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e1d3abc6b05db402bb54f1db190401ec\AndroidManifest.xml:10:5-20
+MERGED from [liji.library.dev:citypickerview:0.7.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c3b22e13d67da4ae90e1a2ac7a1c07bb\AndroidManifest.xml:11:5-15:19
+MERGED from [liji.library.dev:citypickerview:0.7.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c3b22e13d67da4ae90e1a2ac7a1c07bb\AndroidManifest.xml:11:5-15:19
+MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e7c2440ebaa9b787aac4a7371299db6a\AndroidManifest.xml:15:5-18:19
+MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e7c2440ebaa9b787aac4a7371299db6a\AndroidManifest.xml:15:5-18:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\f47ad49bf0023706f7015c1b9fd17dec\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\f47ad49bf0023706f7015c1b9fd17dec\AndroidManifest.xml:9:5-20
+MERGED from [com.prolificinteractive:material-calendarview:1.4.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\089f57a3564c43a4d2a8bddbdca1b484\AndroidManifest.xml:12:5-20
+MERGED from [com.prolificinteractive:material-calendarview:1.4.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\089f57a3564c43a4d2a8bddbdca1b484\AndroidManifest.xml:12:5-20
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\a21bc4c7de0f507ca0e1fccdbf012b08\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\a21bc4c7de0f507ca0e1fccdbf012b08\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\7e423a5a906f955089573af441f348d8\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\7e423a5a906f955089573af441f348d8\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c55ccda56cb3ef2f3868a609ddade831\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c55ccda56cb3ef2f3868a609ddade831\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\485115b4e47534e20fda3f90c6b0ebdb\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\485115b4e47534e20fda3f90c6b0ebdb\AndroidManifest.xml:9:5-20
 	android:screenOrientation
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:11:9-45
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:11:9-45
 	android:supportsRtl
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:13:9-43
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:6:9-39
-activity#com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.AddShoppingActicty
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:14:9-109
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:6:9-39
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.AddShoppingActicty
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:14:9-81
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:14:19-97
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:14:19-69
 activity#com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.CourseFragment
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:15:9-96
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:15:9-96
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:15:19-93
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:15:19-93
 activity#com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.CurriculumFragment
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:16:9-100
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:16:9-100
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:16:19-97
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:16:19-97
 activity#com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_manage.ReceivingActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:17:9-101
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:17:9-101
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:17:19-98
-activity#com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.SiteActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:18:9-94
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:17:19-98
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.SiteActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:18:9-66
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:18:19-91
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:18:19-63
 activity#com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.BuyActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:19:9-93
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:19:9-93
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:19:19-90
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:19:19-90
 activity#com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.Curr_Commodity2Activity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:20:9-102
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:20:9-102
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:20:19-99
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:20:19-99
 activity#com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.Books_Commodity2Activity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:21:9-103
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:21:9-103
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:21:19-100
-activity#com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.CollectActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:22:9-97
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:21:19-100
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.CollectActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:22:9-69
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:22:19-94
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:22:19-66
 activity#com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.ShoppingActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:23:9-98
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:23:9-98
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:23:19-95
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:23:19-95
 activity#com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_2.WholeCommodity2Activity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:24:9-102
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:24:9-102
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:24:19-99
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:24:19-99
 activity#com.example.usercwq.medicalmall.ui.acticitys_my.LoginActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:25:9-67
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:25:9-67
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:25:19-64
-activity#com.example.usercwq.medicalmall.ui.main.MainActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:26:9-34:20
-	android:theme
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:28:13-47
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:25:19-64
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.MyPassUpActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:26:9-70
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:27:13-49
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:26:19-67
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.MySelfActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:27:9-68
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:27:19-65
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.MyShoopingActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:28:9-72
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:28:19-69
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.MyOrderActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:29:9-69
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:29:19-66
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.MyAddActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:30:9-67
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:30:19-64
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.MyAddressActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:31:9-71
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:31:19-68
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.MyClassActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:32:9-69
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:32:19-66
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.MyCollectActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:33:19-68
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.MyOnlineActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:34:9-70
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:34:19-67
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.MyAboutActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:35:9-69
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:35:19-66
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.MySchoolActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:36:9-70
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:36:19-67
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.NotifyActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:37:9-68
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:37:19-65
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.NotifyDateilActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:38:9-74
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:38:19-71
+activity#com.example.usercwq.medicalmall.ui.acticitys_my.LeadActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:39:9-45:20
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:39:19-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:43:27-74
+activity#com.example.usercwq.medicalmall.ui.main.MainActivity
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:46:9-50:20
+	android:theme
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:48:13-47
+	android:name
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:47:13-49
 activity#com.umeng.socialize.media.WBShareCallBackActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:36:9-40:75
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:52:9-56:75
 	android:exported
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:55:13-37
 	android:configChanges
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:38:13-63
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:54:13-63
 	android:theme
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:40:13-72
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:56:13-72
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:37:13-77
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:53:13-77
 activity#com.sina.weibo.sdk.web.WeiboSdkWebActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:41:9-45:58
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:57:9-61:58
 	android:windowSoftInputMode
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:45:13-55
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:61:13-55
 	android:exported
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:44:13-37
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:60:13-37
 	android:configChanges
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:43:13-63
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:59:13-63
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:42:13-70
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:58:13-70
 activity#com.sina.weibo.sdk.share.WbShareTransActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:46:9-55:20
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:62:9-71:20
 	android:launchMode
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:48:13-44
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:64:13-44
 	android:theme
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:49:13-83
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:65:13-83
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:47:13-73
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:63:13-73
 intent-filter#action:name:com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY+category:name:android.intent.category.DEFAULT
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:50:13-54:29
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:66:13-70:29
 action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:51:17-92
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:67:17-92
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:51:25-89
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:67:25-89
 category#android.intent.category.DEFAULT
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:53:17-76
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:69:17-76
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:53:27-73
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:69:27-73
 activity#com.example.usercwq.medicalmall.ui.wxapi.WXEntryActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:56:9-60:75
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:72:9-76:75
 	android:exported
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:59:13-36
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:75:13-36
 	android:configChanges
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:58:13-74
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:74:13-74
 	android:theme
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:60:13-72
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:76:13-72
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:57:13-53
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:73:13-53
 activity#com.tencent.tauth.AuthActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:61:9-73:20
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:77:9-89:20
 	android:launchMode
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:63:13-44
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:79:13-44
 	android:noHistory
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:64:13-37
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:80:13-37
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:62:13-58
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:78:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tencent100424468
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:65:13-72:29
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:81:13-88:29
 action#android.intent.action.VIEW
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:66:17-69
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:82:17-69
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:66:25-66
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:82:25-66
 category#android.intent.category.BROWSABLE
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:69:17-78
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:85:17-78
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:69:27-75
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:85:27-75
 data
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:71:17-59
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:87:17-59
 	android:scheme
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:71:23-56
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:87:23-56
 activity#com.tencent.connect.common.AssistActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:74:9-77:75
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:90:9-93:75
 	android:configChanges
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:76:13-74
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:92:13-74
 	android:theme
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:77:13-72
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:93:13-72
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:75:13-69
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:91:13-69
 activity#com.example.usercwq.medicalmall.ui.main.DaKaActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:78:9-80:50
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:94:9-96:50
 	android:theme
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:80:13-47
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:96:13-47
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:79:13-49
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:95:13-49
 activity#com.example.usercwq.medicalmall.ui.acticitys_my.RegisterActivity
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:81:9-70
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:97:9-70
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:81:19-67
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:97:19-67
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:83:5-80
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:23:5-80
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:23:5-80
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:99:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:23:5-80
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:83:22-77
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:99:22-77
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:84:5-79
-MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\5eb2c0db6961b3ae407e2c9fd9fedfe7\AndroidManifest.xml:13:5-79
-MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\5eb2c0db6961b3ae407e2c9fd9fedfe7\AndroidManifest.xml:13:5-79
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:100:5-79
+MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e7c2440ebaa9b787aac4a7371299db6a\AndroidManifest.xml:13:5-79
+MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e7c2440ebaa9b787aac4a7371299db6a\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:84:22-76
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:100:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:85:5-76
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:101:5-76
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:85:22-73
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:101:22-73
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:86:5-75
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:102:5-75
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:86:22-72
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:102:22-72
 uses-permission#android.permission.INTERNET
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:87:5-67
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:103:5-67
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:87:22-64
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:103:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:89:5-81
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:24:5-81
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:24:5-81
+ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:105:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:24:5-81
 	android:name
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml:89:22-78
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml:105:22-78
 uses-sdk
-INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
-INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:20:5-44
-MERGED from [com.androidkun:XTabLayout:1.1.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\f6db51a22aba03896b73d94076d5123a\AndroidManifest.xml:7:5-9:41
-MERGED from [com.androidkun:XTabLayout:1.1.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\f6db51a22aba03896b73d94076d5123a\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\50699d2ae6a03d34835ca830b194dc08\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\50699d2ae6a03d34835ca830b194dc08\AndroidManifest.xml:20:5-44
-MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\97c3191ad42e46f3dd881715b8e0f773\AndroidManifest.xml:6:5-8:41
-MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\97c3191ad42e46f3dd881715b8e0f773\AndroidManifest.xml:6:5-8:41
-MERGED from [liji.library.dev:citypickerview:0.7.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\6835b3e12177addfa0197a82e35f464e\AndroidManifest.xml:7:5-9:41
-MERGED from [liji.library.dev:citypickerview:0.7.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\6835b3e12177addfa0197a82e35f464e\AndroidManifest.xml:7:5-9:41
-MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\5eb2c0db6961b3ae407e2c9fd9fedfe7\AndroidManifest.xml:8:5-11:104
-MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\5eb2c0db6961b3ae407e2c9fd9fedfe7\AndroidManifest.xml:8:5-11:104
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\0df245ad4b794ff84f8fb4a3eba3252f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\0df245ad4b794ff84f8fb4a3eba3252f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\8cf92cc3a086b8c86793224f1c15686c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\8cf92cc3a086b8c86793224f1c15686c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.prolificinteractive:material-calendarview:1.4.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\4bf5dd4214430bd1d87596faeb3c680b\AndroidManifest.xml:8:5-10:41
-MERGED from [com.prolificinteractive:material-calendarview:1.4.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\4bf5dd4214430bd1d87596faeb3c680b\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\3725478aa7d1ab8dc6ac7746181f7f14\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\3725478aa7d1ab8dc6ac7746181f7f14\AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\c1f2745332891e6c21aff3f1a6a46070\AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\c1f2745332891e6c21aff3f1a6a46070\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\a5e08677b62049054eec80f8a6797cd5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\a5e08677b62049054eec80f8a6797cd5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\56d06f2f13e8939f2cedb74936996de9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\56d06f2f13e8939f2cedb74936996de9\AndroidManifest.xml:20:5-44
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\love\.gradle\caches\transforms-2\files-2.1\17910985de5f9a98cdae123f0708532e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\love\.gradle\caches\transforms-2\files-2.1\17910985de5f9a98cdae123f0708532e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14] C:\Users\love\.gradle\caches\transforms-2\files-2.1\27c9a67c25de5848215e32dc523ec49b\AndroidManifest.xml:7:5-9:41
-MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14] C:\Users\love\.gradle\caches\transforms-2\files-2.1\27c9a67c25de5848215e32dc523ec49b\AndroidManifest.xml:7:5-9:41
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\81e3253cb73a6a34125e36585ff3d235\AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\81e3253cb73a6a34125e36585ff3d235\AndroidManifest.xml:19:5-43
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\7429ad3eee2f8ca9535645fc5f7cef81\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\7429ad3eee2f8ca9535645fc5f7cef81\AndroidManifest.xml:6:5-8:41
-MERGED from [com.youth.banner:banner:1.4.10] C:\Users\love\.gradle\caches\transforms-2\files-2.1\7058a364e85a4c0d712c21a6029efbe5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.youth.banner:banner:1.4.10] C:\Users\love\.gradle\caches\transforms-2\files-2.1\7058a364e85a4c0d712c21a6029efbe5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\2614f878291153790400934e2bb81a59\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\2614f878291153790400934e2bb81a59\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\50705a0d74547044679a29d5a8ec1891\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\50705a0d74547044679a29d5a8ec1891\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\36b326594448f623d43a6c071a1fa620\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\36b326594448f623d43a6c071a1fa620\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\a7149d2a3add1b36573660ec8ba22b21\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\a7149d2a3add1b36573660ec8ba22b21\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\bd48167e3e7d3b89aa37b6327cc30e32\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\bd48167e3e7d3b89aa37b6327cc30e32\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\2e200589d7139774f8093c659ba395df\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\2e200589d7139774f8093c659ba395df\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\d5f9b786c890ba915523d0764f8133f6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\d5f9b786c890ba915523d0764f8133f6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\13ce3a3fbbd85edc10385931b4df94cf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\13ce3a3fbbd85edc10385931b4df94cf\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\83054b916fb350c4b94decdbcdfe0910\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\83054b916fb350c4b94decdbcdfe0910\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\9a18eb55eaa373775d37f4ca0da3406b\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\9a18eb55eaa373775d37f4ca0da3406b\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\c4e4e63f35e9a429989dd940adfec22a\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\c4e4e63f35e9a429989dd940adfec22a\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-arm64:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\0f5fa52391a0675b379b687523d86c6e\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-arm64:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\0f5fa52391a0675b379b687523d86c6e\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-x86:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\d1c3a90e5a0ffe4ff88997f1cf4f1a89\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-x86:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\d1c3a90e5a0ffe4ff88997f1cf4f1a89\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-x86_64:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\6b5bb236a8dfc64c655408cb848680f9\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-x86_64:0.6.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\6b5bb236a8dfc64c655408cb848680f9\AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\98f1e6262af3fa4feea2b0257d268bc3\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\98f1e6262af3fa4feea2b0257d268bc3\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\aa61d8bb533c857b038da7a4e2c83ddd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\aa61d8bb533c857b038da7a4e2c83ddd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\3d95cd8a7c934c7efdb648691a4a4b8d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\3d95cd8a7c934c7efdb648691a4a4b8d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\8e9e3186c3e3decad0b3cc5c2558dc80\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\love\.gradle\caches\transforms-2\files-2.1\8e9e3186c3e3decad0b3cc5c2558dc80\AndroidManifest.xml:20:5-44
-INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
-INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
+INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
+INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:20:5-44
+MERGED from [com.androidkun:XTabLayout:1.1.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c81154776c28f3aafb59be2011e03600\AndroidManifest.xml:7:5-9:41
+MERGED from [com.androidkun:XTabLayout:1.1.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c81154776c28f3aafb59be2011e03600\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\4ca412abf63e1898d643bc4f15686145\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\4ca412abf63e1898d643bc4f15686145\AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e1d3abc6b05db402bb54f1db190401ec\AndroidManifest.xml:6:5-8:41
+MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e1d3abc6b05db402bb54f1db190401ec\AndroidManifest.xml:6:5-8:41
+MERGED from [liji.library.dev:citypickerview:0.7.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c3b22e13d67da4ae90e1a2ac7a1c07bb\AndroidManifest.xml:7:5-9:41
+MERGED from [liji.library.dev:citypickerview:0.7.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c3b22e13d67da4ae90e1a2ac7a1c07bb\AndroidManifest.xml:7:5-9:41
+MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e7c2440ebaa9b787aac4a7371299db6a\AndroidManifest.xml:8:5-11:104
+MERGED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e7c2440ebaa9b787aac4a7371299db6a\AndroidManifest.xml:8:5-11:104
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\eb04539aa1484364ce3557d7f12f2fbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\eb04539aa1484364ce3557d7f12f2fbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\f47ad49bf0023706f7015c1b9fd17dec\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\f47ad49bf0023706f7015c1b9fd17dec\AndroidManifest.xml:5:5-7:41
+MERGED from [com.prolificinteractive:material-calendarview:1.4.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\089f57a3564c43a4d2a8bddbdca1b484\AndroidManifest.xml:8:5-10:41
+MERGED from [com.prolificinteractive:material-calendarview:1.4.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\089f57a3564c43a4d2a8bddbdca1b484\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\f6c75e5e179f7e41e01f1b77e1ce36a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\f6c75e5e179f7e41e01f1b77e1ce36a8\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\d81dd0ea62d958b0fcd89cdb6d0c3b2e\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\d81dd0ea62d958b0fcd89cdb6d0c3b2e\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\2d8bb3442ba478320dac16d69d131864\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\2d8bb3442ba478320dac16d69d131864\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\1a92d54cd74bb7d7000a6d96ee78daaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\1a92d54cd74bb7d7000a6d96ee78daaa\AndroidManifest.xml:20:5-44
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\a21bc4c7de0f507ca0e1fccdbf012b08\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\a21bc4c7de0f507ca0e1fccdbf012b08\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\7e423a5a906f955089573af441f348d8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\7e423a5a906f955089573af441f348d8\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5faab9a2fc89b46d3d761858a12053e0\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5faab9a2fc89b46d3d761858a12053e0\AndroidManifest.xml:19:5-43
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c55ccda56cb3ef2f3868a609ddade831\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c55ccda56cb3ef2f3868a609ddade831\AndroidManifest.xml:6:5-8:41
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\577fee6089d85802378d7d4ce02b7a6b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\577fee6089d85802378d7d4ce02b7a6b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c291628077f55f75a2c2745bbbca33d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\c291628077f55f75a2c2745bbbca33d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\fe8b583964acfca624c276aaab8fc5c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\fe8b583964acfca624c276aaab8fc5c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\cf9ac0df8e89e2bbfb69a1aff2049e85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\cf9ac0df8e89e2bbfb69a1aff2049e85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\700d57271d95576d9db9b6d0254565a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\700d57271d95576d9db9b6d0254565a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e430f559624bb9b293ef3731ce0e4e40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e430f559624bb9b293ef3731ce0e4e40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\bbf2d961a2b3fd17ab9169070f72f2ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\bbf2d961a2b3fd17ab9169070f72f2ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\0350e5a5ba2d195f8491cfee2a4d4b7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\0350e5a5ba2d195f8491cfee2a4d4b7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\9910e5b0e2d6b930db13e3b2c04010a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\9910e5b0e2d6b930db13e3b2c04010a5\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\485115b4e47534e20fda3f90c6b0ebdb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\485115b4e47534e20fda3f90c6b0ebdb\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\0b28a10a6645dc6ea82105bf3b232cca\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\0b28a10a6645dc6ea82105bf3b232cca\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\ef1d41f13b9c87ffb75741b248a35f00\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\ef1d41f13b9c87ffb75741b248a35f00\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-arm64:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\6224bb8b459bb48c6373e74130ca029e\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-arm64:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\6224bb8b459bb48c6373e74130ca029e\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\fd8a38cd427ede7ead9e8381eab27608\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\fd8a38cd427ede7ead9e8381eab27608\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86_64:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\65bfc3f4b3181d70cf7ccee99fcdb7fa\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86_64:0.6.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\65bfc3f4b3181d70cf7ccee99fcdb7fa\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\b6f3a3beea32e23004936fd3a39c9dd2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\b6f3a3beea32e23004936fd3a39c9dd2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\22174aa5a5bb78e72af38dd150df90b8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\22174aa5a5bb78e72af38dd150df90b8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\099920189e3d908e0bbeba322b56627c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\099920189e3d908e0bbeba322b56627c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e4ee80f419ea009861cb87f376d8f52e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e4ee80f419ea009861cb87f376d8f52e\AndroidManifest.xml:20:5-44
+INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
+INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\love\.gradle\caches\transforms-2\files-2.1\5eb2c0db6961b3ae407e2c9fd9fedfe7\AndroidManifest.xml:11:9-101
+		ADDED from [fm.jiecao:jiecaovideoplayer:4.6.3] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\e7c2440ebaa9b787aac4a7371299db6a\AndroidManifest.xml:11:9-101
 	android:targetSdkVersion
-		INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
-		ADDED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Learningcatalogue\study\Android\xm\MedicalMall2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
+		ADDED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Medical\MedicalMall2\app\src\main\AndroidManifest.xml
 service#com.squareup.leakcanary.internal.HeapAnalyzerService
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:27:9-30:45
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:27:9-30:45
 	android:process
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:30:13-42
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:30:13-42
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:29:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:28:13-80
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:28:13-80
 service#com.squareup.leakcanary.DisplayLeakService
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:31:9-33:39
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:31:9-33:39
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:33:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:32:13-70
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:32:13-70
 activity#com.squareup.leakcanary.internal.DisplayLeakActivity
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:35:9-47:20
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:35:9-47:20
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:37:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:37:13-36
 	android:label
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:39:13-71
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:39:13-71
 	android:icon
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:38:13-54
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:38:13-54
 	android:theme
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:41:13-63
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:41:13-63
 	android:taskAffinity
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:40:13-76
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:40:13-76
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:36:13-80
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:36:13-80
 activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:48:9-54:68
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:48:9-54:68
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:50:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:50:13-36
 	android:label
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:52:13-82
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:52:13-82
 	android:icon
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:51:13-54
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:51:13-54
 	android:theme
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:54:13-65
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:54:13-65
 	android:taskAffinity
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:53:13-76
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:53:13-76
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\love\.gradle\caches\transforms-2\files-2.1\b26884d9caac9160f5d786cc30cc9121\AndroidManifest.xml:49:13-93
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\86155\.gradle\caches\transforms-2\files-2.1\5c696e64c91dcb1c3145e78df43692ec\AndroidManifest.xml:49:13-93

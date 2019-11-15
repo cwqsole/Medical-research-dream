@@ -1,4 +1,4 @@
-package com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3;
+package com.example.usercwq.medicalmall.ui.acticitys_my;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

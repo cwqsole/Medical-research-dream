@@ -20,12 +20,11 @@ import com.example.usercwq.medicalmall.bean.shopping_bean.BookBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.GatherBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.ParticularsBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.ShopBean;
-import com.example.usercwq.medicalmall.bean.shopping_bean.WholeBean;
 import com.example.usercwq.medicalmall.db.ShopBeanDao;
 import com.example.usercwq.medicalmall.http.HttpUtils;
 import com.example.usercwq.medicalmall.net.ApiService;
 import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.BuyActivity;
-import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.CollectActivity;
+import com.example.usercwq.medicalmall.ui.acticitys_my.CollectActivity;
 import com.example.usercwq.medicalmall.ui.fragment.shopping_fragment.shopping_buy3.ShoppingActivity;
 import com.example.usercwq.medicalmall.utils.RxUtils;
 import com.example.usercwq.medicalmall.utils.ToastUtil;
@@ -33,8 +32,6 @@ import com.example.usercwq.medicalmall.utils.ToastUtil;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-
-import java.util.List;
 
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
