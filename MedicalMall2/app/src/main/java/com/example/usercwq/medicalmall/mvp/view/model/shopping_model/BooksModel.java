@@ -1,6 +1,7 @@
 package com.example.usercwq.medicalmall.mvp.view.model.shopping_model;
 
 import com.example.usercwq.medicalmall.base.BaseModel;
+import com.example.usercwq.medicalmall.bean.shopping_bean.BookBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.WholeBean;
 import com.example.usercwq.medicalmall.http.HttpUtils;
 import com.example.usercwq.medicalmall.mvp.view.model.ResultCallBack;
@@ -18,23 +19,23 @@ import io.reactivex.schedulers.Schedulers;
  */
 
 public class BooksModel extends BaseModel {
-    public void setfyCodeView2(final ResultCallBack<WholeBean> callBack2) {
+    public void setfyCodeView2(String access_token, int path, final ResultCallBack<BookBean> callBack2) {
 
         ApiService apiserver = HttpUtils.getInstance().getApiserver(ApiService.Uri, ApiService.class);
-        apiserver.gettushu()
-                .compose(RxUtils.<WholeBean>rxObserableSchedulerHelper())
+        apiserver.getBook("Bearer "+access_token,path)
+                .compose(RxUtils.<BookBean>rxObserableSchedulerHelper())
                 .subscribeOn(AndroidSchedulers.mainThread())
                 .subscribeOn(Schedulers.io())
-                .subscribe(new Observer<WholeBean>() {
+                .subscribe(new Observer<BookBean>() {
                     @Override
                     public void onSubscribe(Disposable d) {
 
                     }
 
                     @Override
-                    public void onNext(WholeBean wholeBean) {
-                        if (wholeBean.getInfo()!=null){
-                            callBack2.onSussecc(wholeBean);
+                    public void onNext(BookBean bookBean) {
+                        if (bookBean.getInfo()!=null){
+                            callBack2.onSussecc(bookBean);
                         }
                     }
 
@@ -50,4 +51,6 @@ public class BooksModel extends BaseModel {
                 });
 
     }
+
+
 }

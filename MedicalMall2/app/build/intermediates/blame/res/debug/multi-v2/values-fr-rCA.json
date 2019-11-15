@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\yurisa\\Desktop\\yym3\\MedicalMall22\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "outputFile": "E:\\Learningcatalogue\\study\\Android\\xm\\MedicalMall2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yurisa\\.gradle\\caches\\transforms-2\\files-2.1\\d54e3fc0b62a48416f068f4c19c4af00\\res\\values-fr-rCA\\values-fr-rCA.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,331,442,529,645,775,858,938,1034,1144,1256,1359,1470,1577,1679,1838,1937",
-                        "endColumns": "110,114,110,86,115,129,82,79,95,109,111,102,110,106,101,158,98,85",
-                        "endOffsets": "211,326,437,524,640,770,853,933,1029,1139,1251,1354,1465,1572,1674,1833,1932,2018"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\yurisa\\.gradle\\caches\\transforms-2\\files-2.1\\965f5019a05b3fe08a9d6d8260f4a8af\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\224f0ab21919be191b7b6995a54a61c7\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "2023",
                         "endColumns": "100",
                         "endOffsets": "2119"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\d30f64c35ba09229a872ea17b624d5ff\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,331,442,529,645,775,858,938,1034,1144,1256,1359,1470,1577,1679,1838,1937",
+                        "endColumns": "110,114,110,86,115,129,82,79,95,109,111,102,110,106,101,158,98,85",
+                        "endOffsets": "211,326,437,524,640,770,853,933,1029,1139,1251,1354,1465,1572,1674,1833,1932,2018"
                     }
                 }
             ]

@@ -1,12 +1,12 @@
 package com.example.usercwq.medicalmall.net;
 
 import com.example.usercwq.medicalmall.bean.MainBean;
-import com.example.usercwq.medicalmall.bean.course.CourseBean;
-import com.example.usercwq.medicalmall.bean.my_bean.MyNotifyBean;
 import com.example.usercwq.medicalmall.bean.phone_bean.PhoineBean;
 import com.example.usercwq.medicalmall.bean.register_bean.LoginBean;
 import com.example.usercwq.medicalmall.bean.register_bean.Register2Bean;
+import com.example.usercwq.medicalmall.bean.shopping_bean.BookBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.CurrBean;
+import com.example.usercwq.medicalmall.bean.shopping_bean.ParticularsBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.WholeBean;
 import com.example.usercwq.medicalmall.bean.tiku_bean.TikuBean;
 
@@ -28,16 +28,31 @@ public interface ApiService {
     @GET("data/%E7%A6%8F%E5%88%A9/20/1")
     Observable<MainBean> getData();
 
-    //全部   图书  课程
+    //全部
     String Uri = "https://app.yiyanmeng.com/";
 
-    @GET("index.php/shop/get_shop_list")
-    Observable<WholeBean> gettushu();  //全部 和图书通用
+  //https://app.yiyanmeng.com/index.php/shop/get_shop_and_vedio_list
+  //全部
+    @POST("index.php/shop/get_shop_and_vedio_list")
+    @FormUrlEncoded
+    Observable<WholeBean> getTuShu(@Header("A-uthorization")String header,@Field("start")int start,@Field("end")int end);
+    //详情
+  //https://app.yiyanmeng.com/index.php/Shop/shop_xiang_qing
+  @POST("index.php/Shop/shop_xiang_qing")
+  @FormUrlEncoded
+  Observable<ParticularsBean> getXiangQing(@Header("A-uthorization")String header, @Field("id")String id);
 
-    //https://app.yiyanmeng.com/
-    @GET("index.php/kecheng/ke_index_list")
-    Observable<CurrBean> getCurr();
+     //图书
+  //https://app.yiyanmeng.com/index.php/shop/get_shop_list
+  @POST("index.php/shop/get_shop_list")
+  @FormUrlEncoded
+  Observable<BookBean> getBook(@Header("A-uthorization")String header, @Field("p")int p);
 
+  //课程
+  //https://app.yiyanmeng.com/index.php/kecheng/ke_index_list
+  @POST("index.php/kecheng/ke_index_list")
+  @FormUrlEncoded
+  Observable<CurrBean> getCurr(@Header("A-uthorization")String header,@Field("p")int p);
 
     //手机号  验证码
     @POST("index.php/paywx/massage")
@@ -63,14 +78,8 @@ public interface ApiService {
     @GET("index.php/Shiti/ti_type_list")
     Observable<TikuBean> getTiKuBean(@Header("A-uthorization") String accout);
 
-    //通知
-    @GET("index.php/forum/notice_list")
-    Observable<MyNotifyBean> getBean();
 
-  public static final String Url_zhengshi = "https://app.yiyanmeng.com/index.php/";//正式
-  //第三个页面课程
-  @GET("kecheng/ke_index_list")
-  Observable<CourseBean> getCourse();
+
 }
 
 

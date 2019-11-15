@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_popup"
+    android:background="@color/colorPageBg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/frl"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorTheme"
+
+        >
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:text="返回"
+            android:textSize="15sp"
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="管理收货地址"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+       >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/et_name"
+            android:layout_alignLeft="@+id/tv_tel"
+            android:layout_alignRight="@+id/tv_tel"
+            android:layout_alignTop="@+id/et_name"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|left"
+            android:text="收货人:"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/mine"
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_choose"
+            android:text="选联系人"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:maxLength="15"
+            android:layout_toLeftOf="@+id/tv_choose"
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_name"
+            android:background="@null"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <include
+            android:layout_toLeftOf="@+id/tv_choose"
+            android:id="@+id/line1"
+            layout="@layout/include_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/et_name" />
+
+
+        <TextView
+            android:id="@+id/tv_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/et_tel"
+            android:layout_alignTop="@+id/et_tel"
+            android:layout_below="@+id/line1"
+            android:gravity="center_vertical"
+            android:text="手机号码:"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_toLeftOf="@+id/tv_choose"
+            android:id="@+id/et_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line1"
+            android:layout_toRightOf="@+id/tv_tel"
+            android:background="@null"
+            android:inputType="number"
+            android:maxLength="11"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <include
+            android:id="@+id/line2"
+            layout="@layout/include_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/et_tel" />
+
+
+        <TextView
+            android:id="@+id/region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_address"
+            android:layout_alignTop="@+id/tv_address"
+            android:layout_below="@+id/line2"
+            android:gravity="center_vertical"
+            android:text="所在地区:"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line2"
+            android:layout_toLeftOf="@+id/iv_right"
+            android:layout_toRightOf="@+id/tv_tel"
+            android:background="@null"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_address"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_address"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:src="@drawable/ic_arrow_right" />
+
+        <include
+            android:id="@+id/line3"
+            layout="@layout/include_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/tv_address" />
+
+
+        <EditText
+            android:hint="请输入详细的街道地址"
+            android:gravity="top"
+            android:lines="3"
+            android:padding="8dp"
+            android:background="@null"
+            android:id="@+id/et_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line3"
+            android:textColor="@color/colorBlack"
+            android:textSize="15dp" />
+
+
+        <include
+            android:visibility="gone"
+            android:id="@+id/line4"
+            layout="@layout/include_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/et_address" />
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:id="@+id/tv_delAdd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/colorTheme"
+        android:gravity="center"
+        android:text="保存地址"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp" />
+
+</LinearLayout>
+

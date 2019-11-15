@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\yurisa\\Desktop\\yym3\\MedicalMall22\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "E:\\Learningcatalogue\\study\\Android\\xm\\MedicalMall2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yurisa\\.gradle\\caches\\transforms-2\\files-2.1\\d1d32d8a4bf74884b02d61904427da4c\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\36d30da6e4b29536851966fe3b21d5e9\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yurisa\\.gradle\\caches\\transforms-2\\files-2.1\\d54e3fc0b62a48416f068f4c19c4af00\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\love\\.gradle\\caches\\transforms-2\\files-2.1\\d30f64c35ba09229a872ea17b624d5ff\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

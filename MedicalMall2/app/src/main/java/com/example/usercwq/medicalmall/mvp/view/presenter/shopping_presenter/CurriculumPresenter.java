@@ -17,8 +17,8 @@ public class CurriculumPresenter extends BasePresenter<CurriculumView> {
         mCurriculumModel = new CurriculumModel();
     }
 
-    public void getfyCodeView3() {
-        mCurriculumModel.setFyCodeView(new ResultCallBack<CurrBean>() {
+    public void getfyCodeView3(String mMAccess_token,int id) {
+        mCurriculumModel.setFyCodeView(mMAccess_token,id,new ResultCallBack<CurrBean>() {
             @Override
             public void onSussecc(CurrBean data) {
                 if (mCurriculumModel!=null){

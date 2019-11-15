@@ -1,9 +1,9 @@
 package com.example.usercwq.medicalmall.mvp.view.model.shopping_model;
 
-import android.app.Application;
+import android.util.Log;
+import android.widget.EditText;
 
 import com.example.usercwq.medicalmall.base.BaseModel;
-import com.example.usercwq.medicalmall.bean.MainBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.WholeBean;
 import com.example.usercwq.medicalmall.http.HttpUtils;
 import com.example.usercwq.medicalmall.mvp.view.model.ResultCallBack;
@@ -21,12 +21,10 @@ import io.reactivex.schedulers.Schedulers;
  */
 
 public class WholeModel extends BaseModel {
-    public void setfyCodeView(final ResultCallBack<WholeBean> callBack) {
+    public void setfyCodeView(int start, int end, String access_token, final ResultCallBack<WholeBean> callBack) {
         ApiService apiserver = HttpUtils.getInstance().getApiserver(ApiService.Uri, ApiService.class);
-        apiserver.gettushu()
+        apiserver.getTuShu("Bearer "+access_token,start,end)
                 .compose(RxUtils.<WholeBean>rxObserableSchedulerHelper())
-                .subscribeOn(AndroidSchedulers.mainThread())
-                .subscribeOn(Schedulers.io())
                 .subscribe(new Observer<WholeBean>() {
                     @Override
                     public void onSubscribe(Disposable d) {
@@ -35,6 +33,7 @@ public class WholeModel extends BaseModel {
 
                     @Override
                     public void onNext(WholeBean wholeBean) {
+                        //Log.i("TAG", "onNext: "+wholeBean.toString());
                         if (wholeBean.getInfo()!=null){
                             callBack.onSussecc(wholeBean);
                         }

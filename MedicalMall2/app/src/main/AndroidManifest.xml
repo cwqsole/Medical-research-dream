@@ -2,26 +2,29 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.usercwq.medicalmall">
 
-
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <application
         android:name=".app.MyLication"
         android:allowBackup="true"
+
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:screenOrientation="portrait"
         android:theme="@style/NoActionBar">
+
+
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_buy3.CourseFragment"></activity>
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_buy3.CurriculumFragment" />
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_manage.ReceivingActivity" />
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_buy3.SiteActivity" />
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_buy3.BuyActivity" />
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_2.Curr_Commodity2Activity" />
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_2.Books_Commodity2Activity" />
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_buy3.CollectActivity" />
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_buy3.ShoppingActivity" />
+        <activity android:name=".ui.fragment.shopping_fragment.shopping_2.WholeCommodity2Activity" />
         <activity android:name=".ui.acticitys_my.LoginActivity" />
-        <activity android:name=".ui.acticitys_my.NotifyActivity" />
-        <activity android:name=".ui.acticitys_my.NotifyDateilActivity"></activity>
-        <activity android:name=".ui.acticitys_my.WebActivity"></activity>
         <activity
             android:name=".ui.main.MainActivity"
             android:theme="@style/NoActionBar">
@@ -77,10 +80,14 @@
         <activity
             android:name=".ui.main.DaKaActivity"
             android:theme="@style/NoActionBar" />
-        <activity android:name=".ui.acticitys_my.RegisterActivity"></activity>
-        <activity android:name=".ui.activity_tiku.LnkstActivity"
-            android:theme="@style/NoActionBar"
-            ></activity>
+        <activity android:name=".ui.acticitys_my.RegisterActivity" />
     </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

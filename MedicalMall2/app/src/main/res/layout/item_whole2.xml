@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="105dp"
     android:layout_marginBottom="5dp"
@@ -9,8 +9,7 @@
         android:id="@+id/rl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/touch_bg"
-        android:clickable="true">
+        android:background="@drawable/touch_bg">
 
         <ImageView
             android:id="@+id/image"
@@ -101,8 +100,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tv_tip1"
-                android:layout_alignParentBottom="true"
-                android:layout_marginBottom="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
                 android:drawableLeft="@drawable/icon_keshi"
                 android:text="11111111"
 
@@ -132,6 +131,7 @@
                 android:ellipsize="end"
                 android:maxLines="1"
                 android:text="8.90"
+                android:layout_marginTop="10dp"
                 android:textColor="@color/txt_orange_eb5b27"
                 android:textSize="18sp" />
 
@@ -141,4 +141,9 @@
 
 
     </RelativeLayout>
-</FrameLayout>
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="#F5F5F5"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+</LinearLayout>

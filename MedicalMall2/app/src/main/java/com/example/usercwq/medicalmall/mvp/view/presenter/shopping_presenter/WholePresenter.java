@@ -16,8 +16,8 @@ public class WholePresenter extends BasePresenter<WholeView> {
         mWholeModel = new WholeModel();
     }
 
-    public void getfyCodeView() {
-        mWholeModel.setfyCodeView(new ResultCallBack<WholeBean>() {
+    public void getfyCodeView(String access_token, int start, int end) {
+        mWholeModel.setfyCodeView(start,end,access_token,new ResultCallBack<WholeBean>() {
             @Override
             public void onSussecc(WholeBean data) {
                 if (mWholeModel!=null){

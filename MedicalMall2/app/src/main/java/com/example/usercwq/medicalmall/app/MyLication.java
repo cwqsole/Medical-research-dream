@@ -1,16 +1,25 @@
 package com.example.usercwq.medicalmall.app;
 
 import android.app.Application;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
+import android.support.annotation.NonNull;
 import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.WindowManager;
 
+import com.scwang.smartrefresh.layout.SmartRefreshLayout;
+import com.scwang.smartrefresh.layout.api.DefaultRefreshHeaderCreator;
+import com.scwang.smartrefresh.layout.api.RefreshHeader;
+import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
 import com.umeng.analytics.MobclickAgent;
 import com.umeng.commonsdk.UMConfigure;
 import com.umeng.socialize.PlatformConfig;
+
+import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
 
 /**
  * Created by usercwq on 2019/11/3.
@@ -19,6 +28,8 @@ import com.umeng.socialize.PlatformConfig;
 public class MyLication  extends Application {
 
     public static MyLication sContext;
+    public static String mAccess_token;
+    public JCVideoPlayerStandard VideoPlaying;
 
     public static MyLication getBaseApp(){
         return sContext;
@@ -33,6 +44,10 @@ public class MyLication  extends Application {
     public void onCreate() {
         super.onCreate();
         sContext = this;
+
+        SharedPreferences data = getSharedPreferences("data", MODE_PRIVATE);
+        mAccess_token = data.getString("access_token", "000");
+
         /**
          * 设置组件化的Log开关
          * 参数: boolean 默认为false，如需查看LOG设置为true
@@ -57,6 +72,25 @@ public class MyLication  extends Application {
             return;
         }
 
+
+    }
+
+    /*设置全局的下拉刷新样式*/
+//    static {
+//        SmartRefreshLayout.setDefaultRefreshHeaderCreator(new DefaultRefreshHeaderCreator() {
+//            @NonNull
+//            @Override
+//            public RefreshHeader createRefreshHeader(@NonNull Context context, @NonNull RefreshLayout layout) {
+//
+//                return new MyRefreshLottieHeader(sContext);
+//            }
+//        });
+//    }
+
+
+
+    public static MyLication getContext(){
+        return MyLication.getContext();
     }
     public static Resources getRes(){
         return myLication.getResources();
@@ -78,4 +112,6 @@ public class MyLication  extends Application {
     public static RefWatcher getRefWatcher() {
         return install;
     }
+
+
 }

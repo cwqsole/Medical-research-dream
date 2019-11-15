@@ -21,6 +21,8 @@
     </style>
 
 
+
+
     <!--底部导航RadioGroup-->
     <style name="main_bottom_tab_style">
         <item name="android:layout_width">0dp</item>
@@ -35,13 +37,20 @@
         <item name="android:textSize">11sp</item>
     </style>
 
+    <!--默认地址-->
+    <style name="Address1CheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style4</item>
+    </style>
+
     <style name="RegisterCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
         <item name="android:button">@drawable/checkbox_style_register</item>
     </style>
+
+    <!--首页星星-->
     <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">
         <item name="android:progressDrawable">@drawable/ratingbar</item>
-        <item name="android:maxHeight">25dp</item>
-        <item name="android:minHeight">25dp</item>
+        <item name="android:maxHeight">11dp</item>
+        <item name="android:minHeight">11dp</item>
     </style>
 
     <style name="RememberPswdCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">

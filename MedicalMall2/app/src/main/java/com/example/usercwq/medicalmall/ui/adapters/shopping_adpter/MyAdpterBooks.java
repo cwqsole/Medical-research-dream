@@ -12,16 +12,18 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.usercwq.medicalmall.R;
+import com.example.usercwq.medicalmall.bean.shopping_bean.BookBean;
 import com.example.usercwq.medicalmall.bean.shopping_bean.WholeBean;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MyAdpterBooks extends RecyclerView.Adapter {
-    private ArrayList<WholeBean.InfoBean> mList;
+    private ArrayList<BookBean.InfoBean> mList;
     private Context mContext;
 
 
-    public MyAdpterBooks(ArrayList<WholeBean.InfoBean> list, Context context) {
+    public MyAdpterBooks(ArrayList<BookBean.InfoBean> list, Context context) {
         mList = list;
         mContext = context;
 
@@ -35,13 +37,21 @@ public class MyAdpterBooks extends RecyclerView.Adapter {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
+
         MyHolderBooks myHolderBooks = (MyHolderBooks) holder;
         Glide.with(mContext).load(mList.get(position).getPic()).into(myHolderBooks.mImage);
         myHolderBooks.mName.setText(mList.get(position).getName());
-        myHolderBooks.mTvPrice.setText(mList.get(position).getXian_price());
-        myHolderBooks.mRatingBar.setMax(5);
+        myHolderBooks.mTvPrice.setText("￥"+mList.get(position).getXian_price());
+        myHolderBooks.mRatingBar.setRating(Float.valueOf(mList.get(position).getHao_ping()));
 
+
+        myHolderBooks.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                OnCreatLayout.OnCreatlayout(position);
+            }
+        });
     }
 
     @Override
@@ -63,5 +73,16 @@ public class MyAdpterBooks extends RecyclerView.Adapter {
             mRatingBar = itemView.findViewById(R.id.ratingBar);
             mTvPrice = itemView.findViewById(R.id.tv_price);
         }
+    }
+    //接口回调
+    public OnCreatLayout OnCreatLayout;
+
+    public void setOnCreatLayout(OnCreatLayout onCreatLayout) {
+        OnCreatLayout = onCreatLayout;
+    }
+
+    public interface OnCreatLayout{
+        void OnCreatlayout(int position);
+
     }
 }

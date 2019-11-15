@@ -90,11 +90,34 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'//图片加载框架注解处理器
 
     //日历依赖
-    compile 'com.prolificinteractive:material-calendarview:1.4.0'
-
-
+    implementation 'com.prolificinteractive:material-calendarview:1.4.0'
+    //--谁写的  --备注?吖
     implementation 'com.google.code.gson:gson:2.8.5'
 
-    //Banner
+    //添加依赖EventBus
+    implementation 'org.greenrobot:eventbus:3.1.1'
+
+    //1.1.0 API改动过大，老用户升级需谨慎      上拉刷新
+    //implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14'
+    //implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'
+    //没有使用特殊Header，可以不加这行
+    implementation 'com.android.support:appcompat-v7:27.1.1'//版本 23以上（必须）
+    //默认提供三种加载效果
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-7'
+//提供了多种现成的刷新Header库，可以直接用，如不需要可以不集成
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4-7'
+
+
+   // Lottie
+    //引入依赖
+    implementation 'com.airbnb.android:lottie:2.2.0'
+
+//Banner轮播图
     implementation 'com.youth.banner:banner:1.4.10'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+
+    //选择地区
+    implementation 'liji.library.dev:citypickerview:0.7.0'
+        //视频
+    compile 'fm.jiecao:jiecaovideoplayer:4.6.3'
 }

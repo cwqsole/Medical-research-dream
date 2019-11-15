@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_main"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:id="@+id/frl"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorTheme"
+
+        >
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:text="返回"
+            android:textSize="15sp"
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="商品详情"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/image_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="20dp"
+
+            android:src="@drawable/ic_message2" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/frl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl3"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <include layout="@layout/item_books"
+                android:id="@+id/include"
+                />
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="暂无信息"
+                android:layout_gravity="center"
+                />
+            <include layout="@layout/item_bookt"
+                android:id="@+id/include"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/rl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/fl_inshop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/touch_bg"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp">
+
+            <RelativeLayout
+                android:id="@+id/rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/iv_inshop"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:scaleType="fitXY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/gouwuche" />
+
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tv_inshop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl"
+                android:layout_centerHorizontal="true"
+                android:text="购物车"
+                android:textColor="@color/colorBlack"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/fl_follow2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/touch_bg"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp">
+
+            <ImageView
+                android:id="@+id/iv_follow2"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/collect_111" />
+
+            <TextView
+                android:id="@+id/tv_follow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_follow2"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:text="收藏"
+                android:textColor="@color/colorBlack"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_add_cart"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/colorTheme"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="加入购物车"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_quick_buy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/txt_red"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="立即购买"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

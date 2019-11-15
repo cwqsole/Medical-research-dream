@@ -21,7 +21,6 @@ import com.example.usercwq.medicalmall.bean.tiku_bean.Bean;
 import com.example.usercwq.medicalmall.bean.tiku_bean.TikuBean;
 import com.example.usercwq.medicalmall.mvp.view.presenter.tiku_presenter.TiKuPresenter;
 import com.example.usercwq.medicalmall.mvp.view.view.tiku_view.TiKuView;
-import com.example.usercwq.medicalmall.ui.activity_tiku.LnkstActivity;
 import com.example.usercwq.medicalmall.ui.adapters.tikuAdapter.TiKuApdater;
 import com.example.usercwq.medicalmall.ui.main.DaKaActivity;
 
@@ -144,33 +143,27 @@ public class TiKuFragment extends BaseFragment<TiKuPresenter, TiKuView> implemen
     @OnClick({R.id.rb_3, R.id.rb_4, R.id.rb_6, R.id.rb_1, R.id.rb_2, R.id.rb_5, R.id.tabla})
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.rb_3://历年考试题
-                goToLiNianKaoShiTi();
+            case R.id.rb_3:
+
                 break;
-            case R.id.rb_4:  //模拟考试
+            case R.id.rb_4:
                 break;
-            case R.id.rb_6:  //收藏
+            case R.id.rb_6:
 
 
                 break;
-            case R.id.rb_1:  //英语专项练习
+            case R.id.rb_1:
 
                 break;
-            case R.id.rb_2:  //政治专项练习
+            case R.id.rb_2:
 
                 break;
-            case R.id.rb_5:  //错题库
+            case R.id.rb_5:
 
                 break;
             case R.id.tabla:
-
                 break;
         }
-    }
-//  历年考试题
-    private void goToLiNianKaoShiTi() {
-        startActivity(new Intent(getContext(), LnkstActivity.class));
-
     }
 
     @Override

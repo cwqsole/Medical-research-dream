@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/touch_bg"
+        android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="名字"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/iv_right"
+        android:gravity="center"
+        android:text="12345678912"
+        android:textColor="@color/colorTabText"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/iv_right"
+        android:text="上海 -对对对"
+        android:textColor="@color/colorTabText"
+        android:textSize="13sp" />
+
+    <include
+        android:id="@+id/line"
+        layout="@layout/include_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tv_content" />
+
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        style="@style/Address1CheckboxTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="8dp"
+        android:text="默认地址"
+        android:textColor="@color/colorTabText"
+        android:textSize="13sp" />
+
+
+    <TextView
+        android:layout_marginRight="5dp"
+        android:id="@+id/tv_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/tv_del"
+        android:drawableLeft="@drawable/zhankai_timu"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="编辑"
+        android:textColor="@color/colorTabText"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/iv_right"
+        android:drawableLeft="@drawable/ic_del"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="@color/colorTabText"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/iv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/line"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/tv_name"
+        android:src="@drawable/ic_arrow_right" />
+
+    </RelativeLayout>
+</LinearLayout>

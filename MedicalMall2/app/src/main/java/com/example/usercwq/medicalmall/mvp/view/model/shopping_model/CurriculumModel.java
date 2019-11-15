@@ -19,9 +19,9 @@ import io.reactivex.schedulers.Schedulers;
  */
 
 public class CurriculumModel extends BaseModel {
-    public void setFyCodeView(final ResultCallBack<CurrBean> callBack) {
+    public void setFyCodeView(String mMAccess_token,int id,final ResultCallBack<CurrBean> callBack) {
         ApiService apiserver = HttpUtils.getInstance().getApiserver(ApiService.Uri, ApiService.class);
-        apiserver.getCurr()
+        apiserver.getCurr("Bearer "+mMAccess_token,id)
                 .compose(RxUtils.<CurrBean>rxObserableSchedulerHelper())
                 .subscribeOn(AndroidSchedulers.mainThread())
                 .subscribeOn(Schedulers.io())
